@@ -1,4 +1,10 @@
 {
+  "metadata": {
+    "total_servers": 111,
+    "total_vendors": 14,
+    "last_updated": "2025-10-28",
+    "version": "2.0"
+  },
   "servers": [
     {
       "vendor": "Nutanix",
@@ -7,7 +13,8 @@
       "description": "Analysis, Reporting, Capacity Planning, VM Rightsizing, Troubleshooting, and Ops Automation through Playbooks.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Infrastructure", "AI Operations", "Analytics"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8000
     },
     {
       "vendor": "Nutanix",
@@ -16,7 +23,8 @@
       "description": "Manage Hosts, Clusters, and other Nutanix infrastructure.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Infrastructure", "Cluster Management"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8001
     },
     {
       "vendor": "Nutanix",
@@ -25,7 +33,8 @@
       "description": "Manage Policies for Disaster Recovery and Storage.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Storage", "Disaster Recovery", "Policies"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8002
     },
     {
       "vendor": "Nutanix",
@@ -34,7 +43,8 @@
       "description": "Full spectrum of disaster recovery and backup solutions to manage protection and recovery across on-premises and cloud.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Backup", "Disaster Recovery", "Data Protection"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8003
     },
     {
       "vendor": "Nutanix",
@@ -43,7 +53,8 @@
       "description": "Manage virtual file servers, create and configure shares, protect with DR and sync policies.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Storage", "File Services", "NAS"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8004
     },
     {
       "vendor": "Nutanix",
@@ -52,7 +63,8 @@
       "description": "Manage User Identity and Access.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Security", "Identity", "Access Management"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8005
     },
     {
       "vendor": "Nutanix",
@@ -61,7 +73,8 @@
       "description": "Manage licenses for clusters and Prism Central, get information on applied licenses and compliance.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Management", "Licensing", "Compliance"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8006
     },
     {
       "vendor": "Nutanix",
@@ -70,7 +83,8 @@
       "description": "Manage Infrastructure, Software and Firmware Upgrades.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Management", "Lifecycle", "Updates"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8007
     },
     {
       "vendor": "Nutanix",
@@ -79,7 +93,8 @@
       "description": "Network Security Policy configuration, service-groups, address-groups, ID based security.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Security", "Networking", "Microsegmentation"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8008
     },
     {
       "vendor": "Nutanix",
@@ -88,7 +103,8 @@
       "description": "Manage Alerts, Alert policies, Events and Audits.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Monitoring", "Alerts", "Events", "Auditing"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8009
     },
     {
       "vendor": "Nutanix",
@@ -97,7 +113,8 @@
       "description": "Manage networking configuration including AHV and advanced networking.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Networking", "Infrastructure"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8010
     },
     {
       "vendor": "Nutanix",
@@ -106,7 +123,8 @@
       "description": "Manage Nutanix Object Store Service.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Storage", "Object Storage", "S3"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8011
     },
     {
       "vendor": "Nutanix",
@@ -115,7 +133,8 @@
       "description": "Shared functionality for aiops, devops, secops, and finops domains.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Operations", "Management", "Platform"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8012
     },
     {
       "vendor": "Nutanix",
@@ -124,7 +143,8 @@
       "description": "Manage Tasks, Category Associations and Submit Batch Operations.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Management", "Platform", "Tasks"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8013
     },
     {
       "vendor": "Nutanix",
@@ -133,7 +153,8 @@
       "description": "Manage security features, encryption, certificates, and platform hardening.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Security", "Encryption", "Certificates"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8014
     },
     {
       "vendor": "Nutanix",
@@ -142,7 +163,8 @@
       "description": "Life-cycle management of VMs, images, templates, stats, and guest tools.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Virtualization", "VM Management", "Compute"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8015
     },
     {
       "vendor": "Nutanix",
@@ -151,7 +173,8 @@
       "description": "Manage volume groups in Nutanix clusters.",
       "requirements": "Prism Central creds; HTTPS",
       "category": ["Storage", "Volumes", "Block Storage"],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "port": 8016
     },
     {
       "vendor": "Dell",
@@ -160,7 +183,8 @@
       "description": "Storage system management: protection domains, storage pools, volumes, SDC, SDS devices.",
       "requirements": "Session auth; HTTPS",
       "category": ["Storage", "Infrastructure", "SDS"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8020
     },
     {
       "vendor": "Dell",
@@ -169,7 +193,8 @@
       "description": "Backup and recovery with VMware integration. 124 tools covering clients, jobs, policies, sessions, and storage.",
       "requirements": "Bearer token; HTTPS",
       "category": ["Backup", "Recovery", "Data Protection"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8021
     },
     {
       "vendor": "Dell",
@@ -178,7 +203,8 @@
       "description": "Scale-out NAS storage management and configuration.",
       "requirements": "API creds; HTTPS",
       "category": ["Storage", "NAS", "Scale-out"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8022
     },
     {
       "vendor": "Dell",
@@ -187,7 +213,8 @@
       "description": "Deduplication storage appliance management for backup and recovery.",
       "requirements": "API creds; HTTPS",
       "category": ["Storage", "Backup", "Deduplication"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8023
     },
     {
       "vendor": "Dell",
@@ -196,7 +223,8 @@
       "description": "Integrated Dell Remote Access Controller for server management.",
       "requirements": "Redfish API; HTTPS",
       "category": ["Server Management", "Infrastructure"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8024
     },
     {
       "vendor": "Dell",
@@ -205,7 +233,8 @@
       "description": "Modular infrastructure management for MX7000 chassis.",
       "requirements": "Redfish API; HTTPS",
       "category": ["Infrastructure", "Modular Systems"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8025
     },
     {
       "vendor": "Dell",
@@ -214,7 +243,8 @@
       "description": "Unified server and infrastructure management platform.",
       "requirements": "API creds; HTTPS",
       "category": ["Management", "Infrastructure"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8026
     },
     {
       "vendor": "Dell",
@@ -223,7 +253,8 @@
       "description": "Enterprise storage array management for mission-critical workloads.",
       "requirements": "API creds; HTTPS",
       "category": ["Storage", "Enterprise", "Arrays"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8027
     },
     {
       "vendor": "Dell",
@@ -232,7 +263,8 @@
       "description": "Next-gen unified storage for block and file workloads.",
       "requirements": "API creds; HTTPS",
       "category": ["Storage", "Block", "File"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8028
     },
     {
       "vendor": "Dell",
@@ -241,7 +273,8 @@
       "description": "Unified storage arrays for block, file, and VVols.",
       "requirements": "API creds; HTTPS",
       "category": ["Storage", "Unified", "Arrays"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8029
     },
     {
       "vendor": "Dell",
@@ -250,7 +283,8 @@
       "description": "Hyperconverged infrastructure appliances powered by VMware.",
       "requirements": "API creds; HTTPS",
       "category": ["HCI", "Hyperconverged", "VMware"],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "port": 8030
     },
     {
       "vendor": "Palo Alto Networks",
@@ -259,7 +293,48 @@
       "description": "Read-only firewall access: address/service objects, security/NAT policies, network interfaces, routing (BGP/OSPF/static).",
       "requirements": "API key or username/password; Read-only",
       "category": ["Security", "Firewall", "Networking"],
-      "docsUrl": "https://docs.paloaltonetworks.com/"
+      "docsUrl": "https://docs.paloaltonetworks.com/",
+      "port": 8080
+    },
+    {
+      "vendor": "Palo Alto Networks",
+      "product": "Panorama",
+      "apiVersion": "Latest",
+      "description": "Centralized multi-firewall management. Monitor 100s-1000s of firewalls, device groups, templates, sync status.",
+      "requirements": "XML API; Basic auth",
+      "category": ["Security", "Firewall", "Management"],
+      "docsUrl": "https://docs.paloaltonetworks.com/panorama",
+      "port": 8500
+    },
+    {
+      "vendor": "Palo Alto Networks",
+      "product": "Prisma Access",
+      "apiVersion": "Latest",
+      "description": "SASE platform. Monitor mobile users, remote networks, service connections, bandwidth allocation.",
+      "requirements": "REST API; API key",
+      "category": ["Security", "SASE", "Cloud"],
+      "docsUrl": "https://docs.paloaltonetworks.com/prisma-access",
+      "port": 8501
+    },
+    {
+      "vendor": "Palo Alto Networks",
+      "product": "Cortex XDR",
+      "apiVersion": "Latest",
+      "description": "XDR security operations. Query alerts, incidents, endpoints, investigations, threat intelligence.",
+      "requirements": "REST API; API key + key ID",
+      "category": ["Security", "XDR", "Threat Detection"],
+      "docsUrl": "https://docs-cortex.paloaltonetworks.com/",
+      "port": 8502
+    },
+    {
+      "vendor": "Palo Alto Networks",
+      "product": "Prisma Cloud",
+      "apiVersion": "Latest",
+      "description": "Cloud security posture management. View compliance, alerts, assets, vulnerabilities across clouds.",
+      "requirements": "REST API; Access key + secret",
+      "category": ["Security", "Cloud Security", "CSPM"],
+      "docsUrl": "https://pan.dev/prisma-cloud/",
+      "port": 8503
     },
     {
       "vendor": "Cisco",
@@ -268,7 +343,8 @@
       "description": "Data center switch monitoring with 70+ show commands for Nexus 3000/9000 switches.",
       "requirements": "Basic auth; HTTPS",
       "category": ["Networking", "Data Center", "Switching"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8040
     },
     {
       "vendor": "Cisco",
@@ -277,7 +353,8 @@
       "description": "Campus network automation and assurance with 15+ endpoints.",
       "requirements": "Token auth; HTTPS",
       "category": ["Networking", "Campus", "Automation"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8041
     },
     {
       "vendor": "Cisco",
@@ -286,7 +363,8 @@
       "description": "Cloud-managed infrastructure with 90+ endpoints for all Meraki devices.",
       "requirements": "API key",
       "category": ["Networking", "Cloud", "WiFi"],
-      "docsUrl": "https://developer.cisco.com/meraki/"
+      "docsUrl": "https://developer.cisco.com/meraki/",
+      "port": 8042
     },
     {
       "vendor": "Cisco",
@@ -295,7 +373,8 @@
       "description": "Centralized firewall management with 100+ endpoints for multi-device control.",
       "requirements": "Token auth; HTTPS",
       "category": ["Security", "Firewall", "Management"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8043
     },
     {
       "vendor": "Cisco",
@@ -304,7 +383,8 @@
       "description": "Local firewall management for individual FTD devices with 100+ endpoints.",
       "requirements": "OAuth 2.0; HTTPS",
       "category": ["Security", "Firewall", "Threat Defense"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8044
     },
     {
       "vendor": "Cisco",
@@ -313,7 +393,8 @@
       "description": "Network Access Control and zero trust with 15+ endpoints.",
       "requirements": "Basic auth; HTTPS",
       "category": ["Security", "NAC", "Identity"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8045
     },
     {
       "vendor": "Cisco",
@@ -322,7 +403,8 @@
       "description": "WAN orchestration for SD-WAN edge routers with 12+ endpoints.",
       "requirements": "Cookie + CSRF; HTTPS",
       "category": ["Networking", "WAN", "SD-WAN"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8046
     },
     {
       "vendor": "Cisco",
@@ -331,7 +413,8 @@
       "description": "Compute infrastructure management for UCS blade and rack servers with 12+ queries.",
       "requirements": "Cookie auth; XML API",
       "category": ["Compute", "Servers", "Infrastructure"],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "port": 8047
     },
     {
       "vendor": "Cisco",
@@ -340,43 +423,208 @@
       "description": "Cloud-based infrastructure management for UCS, HyperFlex, Nexus with 10+ endpoints.",
       "requirements": "API key; HTTPS",
       "category": ["Infrastructure", "Cloud", "Management"],
-      "docsUrl": "https://intersight.com/apidocs/"
+      "docsUrl": "https://intersight.com/apidocs/",
+      "port": 8048
     },
     {
       "vendor": "VMware",
       "product": "vSphere",
       "apiVersion": "8.0",
-      "description": "vCenter inventory, events, and automation hooks.",
-      "requirements": "vCenter user; TLS",
+      "description": "vCenter inventory: VMs, hosts, clusters, datastores, networks, folders, resource pools.",
+      "requirements": "vCenter user; Session auth",
       "category": ["Virtualization", "Infrastructure", "Compute"],
-      "docsUrl": "https://developer.vmware.com/"
+      "docsUrl": "https://developer.vmware.com/",
+      "port": 8090
     },
     {
       "vendor": "VMware",
-      "product": "NSX Autonomous Edge",
+      "product": "NSX",
       "apiVersion": "Latest",
-      "description": "Edge networking and security for autonomous edge deployments.",
-      "requirements": "API creds; HTTPS",
-      "category": ["Networking", "Security", "Edge"],
-      "docsUrl": "https://developer.vmware.com/"
+      "description": "Network virtualization and security. Segments, gateways, DFW, security groups, edge clusters, load balancers.",
+      "requirements": "Basic auth; HTTPS",
+      "category": ["Networking", "Security", "SDN"],
+      "docsUrl": "https://developer.vmware.com/apis/nsx-policy/",
+      "port": 8091
+    },
+    {
+      "vendor": "VMware",
+      "product": "vSAN",
+      "apiVersion": "Latest",
+      "description": "Software-defined storage. Cluster health, capacity, disk groups, policies, performance, stretched clusters.",
+      "requirements": "vCenter session; HTTPS",
+      "category": ["Storage", "HCI", "Software-Defined"],
+      "docsUrl": "https://developer.vmware.com/apis/vsan/",
+      "port": 8092
+    },
+    {
+      "vendor": "VMware",
+      "product": "vRealize Operations",
+      "apiVersion": "Latest",
+      "description": "AI-powered monitoring. Resources, alerts, recommendations, capacity, health, risk, metrics.",
+      "requirements": "Token auth; HTTPS",
+      "category": ["Monitoring", "Analytics", "AI Operations"],
+      "docsUrl": "https://developer.vmware.com/apis/vrops/",
+      "port": 8093
+    },
+    {
+      "vendor": "VMware",
+      "product": "Tanzu Kubernetes Grid",
+      "apiVersion": "Latest",
+      "description": "Enterprise Kubernetes. vSphere namespaces, TKC clusters, VM Service, storage policies, supervisor status.",
+      "requirements": "vCenter session; HTTPS",
+      "category": ["Kubernetes", "Containers", "Platform"],
+      "docsUrl": "https://developer.vmware.com/apis/vsphere-automation/",
+      "port": 8094
+    },
+    {
+      "vendor": "VMware",
+      "product": "vRealize Automation",
+      "apiVersion": "Latest",
+      "description": "Infrastructure as Code. Cloud templates, deployments, catalog, multi-cloud accounts, pipelines, projects.",
+      "requirements": "CSP token; HTTPS",
+      "category": ["Automation", "IaC", "Self-Service"],
+      "docsUrl": "https://developer.vmware.com/apis/vra/",
+      "port": 8095
+    },
+    {
+      "vendor": "VMware",
+      "product": "vRealize Log Insight",
+      "apiVersion": "Latest",
+      "description": "Log management. Agents, content packs, alerts, archive, retention, queries, dashboards.",
+      "requirements": "Session auth; HTTPS",
+      "category": ["Logging", "Analytics", "Troubleshooting"],
+      "docsUrl": "https://developer.vmware.com/apis/vrli/",
+      "port": 8096
+    },
+    {
+      "vendor": "VMware",
+      "product": "Horizon",
+      "apiVersion": "Latest",
+      "description": "Virtual Desktop Infrastructure. Desktop pools, user sessions, connection servers, UAG, instant clones.",
+      "requirements": "API auth; HTTPS",
+      "category": ["VDI", "Desktop", "Remote Workforce"],
+      "docsUrl": "https://developer.vmware.com/apis/horizon/",
+      "port": 8097
+    },
+    {
+      "vendor": "VMware",
+      "product": "Site Recovery Manager",
+      "apiVersion": "Latest",
+      "description": "Disaster recovery. Recovery plans, protection groups, replication status, inventory mappings, test history.",
+      "requirements": "vCenter SSO; HTTPS",
+      "category": ["Disaster Recovery", "Business Continuity"],
+      "docsUrl": "https://developer.vmware.com/apis/srm/",
+      "port": 8098
+    },
+    {
+      "vendor": "VMware",
+      "product": "vRealize Network Insight",
+      "apiVersion": "Latest",
+      "description": "Network analytics. Flow analysis, application discovery, NSX planning, device monitoring, path analysis.",
+      "requirements": "API auth; HTTPS",
+      "category": ["Networking", "Analytics", "Troubleshooting"],
+      "docsUrl": "https://developer.vmware.com/apis/vrni/",
+      "port": 8099
+    },
+    {
+      "vendor": "VMware",
+      "product": "HCX",
+      "apiVersion": "Latest",
+      "description": "Hybrid cloud workload mobility. Service mesh, migrations, network extensions, WAN optimization, appliances.",
+      "requirements": "API auth; HTTPS",
+      "category": ["Hybrid Cloud", "Migration", "VMC/AVS/GCVE"],
+      "docsUrl": "https://developer.vmware.com/apis/hcx/",
+      "port": 8100
+    },
+    {
+      "vendor": "VMware",
+      "product": "NSX Advanced Load Balancer",
+      "apiVersion": "Latest",
+      "description": "Modern application delivery (Avi). Virtual services, service engines, pools, WAF, GSLB, SSL certificates.",
+      "requirements": "API auth; HTTPS",
+      "category": ["Load Balancing", "Application Delivery", "WAF"],
+      "docsUrl": "https://avinetworks.com/docs/",
+      "port": 8101
     },
     {
       "vendor": "Pure Storage",
       "product": "FlashArray",
-      "apiVersion": "Latest",
-      "description": "Enterprise all-flash storage array management.",
+      "apiVersion": "2.0",
+      "description": "All-flash block storage. Arrays, volumes, hosts, protection groups, pods, controllers, drives, hardware.",
       "requirements": "API token; HTTPS",
-      "category": ["Storage", "Flash", "Enterprise"],
-      "docsUrl": "https://support.purestorage.com/"
+      "category": ["Storage", "Flash", "Block"],
+      "docsUrl": "https://support.purestorage.com/",
+      "port": 8080
+    },
+    {
+      "vendor": "Pure Storage",
+      "product": "FlashBlade",
+      "apiVersion": "2.0",
+      "description": "Scale-out file and object storage. File systems, buckets, snapshots, blades, NFS/SMB shares, object accounts.",
+      "requirements": "API token; HTTPS",
+      "category": ["Storage", "File", "Object"],
+      "docsUrl": "https://support.purestorage.com/",
+      "port": 8081
+    },
+    {
+      "vendor": "Pure Storage",
+      "product": "Pure1",
+      "apiVersion": "Latest",
+      "description": "Cloud management platform. Multi-array monitoring, AI recommendations, capacity forecasting, support cases.",
+      "requirements": "OAuth 2.0; HTTPS",
+      "category": ["Management", "Analytics", "Cloud"],
+      "docsUrl": "https://pure1.purestorage.com/api",
+      "port": 8082
+    },
+    {
+      "vendor": "Pure Storage",
+      "product": "Portworx",
+      "apiVersion": "Latest",
+      "description": "Kubernetes data services. Volumes, pools, snapshots, cloud backups, alerts, storage classes, cluster health.",
+      "requirements": "API token; HTTPS",
+      "category": ["Kubernetes", "Storage", "Containers"],
+      "docsUrl": "https://docs.portworx.com/",
+      "port": 8083
     },
     {
       "vendor": "Fortinet",
       "product": "FortiGate",
       "apiVersion": "Latest",
-      "description": "Next-generation firewall management and security.",
+      "description": "Next-generation firewall. Policies, addresses, services, interfaces, routes, VPN, SSL inspection.",
       "requirements": "API key; HTTPS",
       "category": ["Security", "Firewall", "NGFW"],
-      "docsUrl": "https://docs.fortinet.com/"
+      "docsUrl": "https://docs.fortinet.com/",
+      "port": 8060
+    },
+    {
+      "vendor": "Fortinet",
+      "product": "FortiManager",
+      "apiVersion": "Latest",
+      "description": "Centralized firewall management. Multi-device management, policy packages, scripts, FortiGate inventory.",
+      "requirements": "API key; HTTPS",
+      "category": ["Security", "Management", "Firewall"],
+      "docsUrl": "https://docs.fortinet.com/",
+      "port": 8061
+    },
+    {
+      "vendor": "Fortinet",
+      "product": "FortiAnalyzer",
+      "apiVersion": "Latest",
+      "description": "Log analytics and reporting. Logs, reports, alerts, dashboards, device monitoring.",
+      "requirements": "API key; HTTPS",
+      "category": ["Security", "Analytics", "Logging"],
+      "docsUrl": "https://docs.fortinet.com/",
+      "port": 8062
+    },
+    {
+      "vendor": "Fortinet",
+      "product": "FortiWeb",
+      "apiVersion": "Latest",
+      "description": "Web application firewall. Server pools, policies, signatures, URL access rules, HTTP service protection.",
+      "requirements": "API key; HTTPS",
+      "category": ["Security", "WAF", "Application Security"],
+      "docsUrl": "https://docs.fortinet.com/",
+      "port": 8063
     },
     {
       "vendor": "Akamai",
@@ -385,7 +633,8 @@
       "description": "CDN, edge security, and edge computing with 25+ endpoints covering Property Manager, WAF, Bot Manager, DNS, EdgeWorkers.",
       "requirements": "EdgeGrid HMAC; HTTPS",
       "category": ["CDN", "Edge", "Security"],
-      "docsUrl": "https://techdocs.akamai.com/developer/"
+      "docsUrl": "https://techdocs.akamai.com/developer/",
+      "port": 8070
     },
     {
       "vendor": "Linode",
@@ -394,7 +643,8 @@
       "description": "Complete cloud infrastructure with 60+ endpoints: compute, storage, networking, Kubernetes.",
       "requirements": "Bearer token; HTTPS",
       "category": ["Cloud", "Infrastructure", "Compute"],
-      "docsUrl": "https://www.linode.com/docs/api/"
+      "docsUrl": "https://www.linode.com/docs/api/",
+      "port": 8071
     },
     {
       "vendor": "AWS",
@@ -403,7 +653,8 @@
       "description": "Virtual machines, security groups, EBS volumes with 6+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Compute", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/ec2/"
+      "docsUrl": "https://docs.aws.amazon.com/ec2/",
+      "port": 8200
     },
     {
       "vendor": "AWS",
@@ -412,7 +663,8 @@
       "description": "Networking, subnets, route tables with 6+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Networking", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/vpc/"
+      "docsUrl": "https://docs.aws.amazon.com/vpc/",
+      "port": 8201
     },
     {
       "vendor": "AWS",
@@ -421,7 +673,8 @@
       "description": "Object storage and bucket management.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Storage", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/s3/"
+      "docsUrl": "https://docs.aws.amazon.com/s3/",
+      "port": 8202
     },
     {
       "vendor": "AWS",
@@ -430,7 +683,8 @@
       "description": "Users, roles, and policies with 3+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Security", "Identity", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/iam/"
+      "docsUrl": "https://docs.aws.amazon.com/iam/",
+      "port": 8203
     },
     {
       "vendor": "AWS",
@@ -439,7 +693,8 @@
       "description": "Load balancers and target groups with 2+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Networking", "Load Balancing", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/elasticloadbalancing/"
+      "docsUrl": "https://docs.aws.amazon.com/elasticloadbalancing/",
+      "port": 8204
     },
     {
       "vendor": "AWS",
@@ -448,7 +703,8 @@
       "description": "Managed databases (MySQL, PostgreSQL, Aurora) with 4+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Database", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/rds/"
+      "docsUrl": "https://docs.aws.amazon.com/rds/",
+      "port": 8205
     },
     {
       "vendor": "AWS",
@@ -457,7 +713,8 @@
       "description": "Serverless functions and layers with 2+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Serverless", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/lambda/"
+      "docsUrl": "https://docs.aws.amazon.com/lambda/",
+      "port": 8206
     },
     {
       "vendor": "AWS",
@@ -466,7 +723,8 @@
       "description": "Kubernetes clusters and node groups with 2+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Kubernetes", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/eks/"
+      "docsUrl": "https://docs.aws.amazon.com/eks/",
+      "port": 8207
     },
     {
       "vendor": "AWS",
@@ -475,7 +733,8 @@
       "description": "Metrics, alarms, and monitoring with 2+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Monitoring", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/cloudwatch/"
+      "docsUrl": "https://docs.aws.amazon.com/cloudwatch/",
+      "port": 8208
     },
     {
       "vendor": "AWS",
@@ -484,7 +743,8 @@
       "description": "DNS, hosted zones, and health checks with 2+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "DNS", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/route53/"
+      "docsUrl": "https://docs.aws.amazon.com/route53/",
+      "port": 8209
     },
     {
       "vendor": "AWS",
@@ -493,7 +753,8 @@
       "description": "NoSQL database table management.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Database", "NoSQL", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/dynamodb/"
+      "docsUrl": "https://docs.aws.amazon.com/dynamodb/",
+      "port": 8210
     },
     {
       "vendor": "AWS",
@@ -502,7 +763,8 @@
       "description": "CDN distribution management.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "CDN", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/cloudfront/"
+      "docsUrl": "https://docs.aws.amazon.com/cloudfront/",
+      "port": 8211
     },
     {
       "vendor": "AWS",
@@ -511,7 +773,8 @@
       "description": "Message queue service.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Messaging", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/sqs/"
+      "docsUrl": "https://docs.aws.amazon.com/sqs/",
+      "port": 8212
     },
     {
       "vendor": "AWS",
@@ -520,7 +783,8 @@
       "description": "Pub/sub notifications and topics.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Messaging", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/sns/"
+      "docsUrl": "https://docs.aws.amazon.com/sns/",
+      "port": 8213
     },
     {
       "vendor": "AWS",
@@ -529,7 +793,8 @@
       "description": "Container image registry.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Containers", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/ecr/"
+      "docsUrl": "https://docs.aws.amazon.com/ecr/",
+      "port": 8214
     },
     {
       "vendor": "AWS",
@@ -538,7 +803,8 @@
       "description": "Container orchestration and Fargate with 2+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Containers", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/ecs/"
+      "docsUrl": "https://docs.aws.amazon.com/ecs/",
+      "port": 8215
     },
     {
       "vendor": "AWS",
@@ -547,7 +813,8 @@
       "description": "Infrastructure as Code stack management.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "IaC", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/cloudformation/"
+      "docsUrl": "https://docs.aws.amazon.com/cloudformation/",
+      "port": 8216
     },
     {
       "vendor": "AWS",
@@ -556,7 +823,8 @@
       "description": "Fleet management and patch management.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Management", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/systems-manager/"
+      "docsUrl": "https://docs.aws.amazon.com/systems-manager/",
+      "port": 8217
     },
     {
       "vendor": "AWS",
@@ -565,7 +833,8 @@
       "description": "Secret rotation and storage.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Security", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/secretsmanager/"
+      "docsUrl": "https://docs.aws.amazon.com/secretsmanager/",
+      "port": 8218
     },
     {
       "vendor": "AWS",
@@ -574,7 +843,8 @@
       "description": "Encryption key management.",
       "requirements": "AWS credentials; SigV4",
       "category": ["Cloud", "Security", "Encryption", "AWS"],
-      "docsUrl": "https://docs.aws.amazon.com/kms/"
+      "docsUrl": "https://docs.aws.amazon.com/kms/",
+      "port": 8219
     },
     {
       "vendor": "Azure",
@@ -583,7 +853,8 @@
       "description": "List and query Azure VMs across all resource groups.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Compute", "Azure"],
-      "docsUrl": "https://docs.microsoft.com/azure/virtual-machines/"
+      "docsUrl": "https://docs.microsoft.com/azure/virtual-machines/",
+      "port": 8300
     },
     {
       "vendor": "Azure",
@@ -592,7 +863,8 @@
       "description": "Access Azure Storage account information.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Storage", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/storage/"
+      "docsUrl": "https://learn.microsoft.com/azure/storage/",
+      "port": 8301
     },
     {
       "vendor": "Azure",
@@ -601,7 +873,8 @@
       "description": "Query Azure Virtual Networks.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Networking", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/virtual-network/"
+      "docsUrl": "https://learn.microsoft.com/azure/virtual-network/",
+      "port": 8302
     },
     {
       "vendor": "Azure",
@@ -610,7 +883,8 @@
       "description": "List and query resource groups.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Management", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/azure-resource-manager/"
+      "docsUrl": "https://learn.microsoft.com/azure/azure-resource-manager/",
+      "port": 8303
     },
     {
       "vendor": "Azure",
@@ -619,7 +893,8 @@
       "description": "Access Azure SQL Server information.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Database", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/sql-database/"
+      "docsUrl": "https://learn.microsoft.com/azure/sql-database/",
+      "port": 8304
     },
     {
       "vendor": "Azure",
@@ -628,7 +903,8 @@
       "description": "Query Azure Functions apps.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Serverless", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/azure-functions/"
+      "docsUrl": "https://learn.microsoft.com/azure/azure-functions/",
+      "port": 8305
     },
     {
       "vendor": "Azure",
@@ -637,7 +913,8 @@
       "description": "Access load balancer configurations.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Networking", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/load-balancer/"
+      "docsUrl": "https://learn.microsoft.com/azure/load-balancer/",
+      "port": 8306
     },
     {
       "vendor": "Azure",
@@ -646,7 +923,8 @@
       "description": "Query DNS zones.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "DNS", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/dns/"
+      "docsUrl": "https://learn.microsoft.com/azure/dns/",
+      "port": 8307
     },
     {
       "vendor": "Azure",
@@ -655,7 +933,8 @@
       "description": "Access Azure Monitor metrics.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Monitoring", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/azure-monitor/"
+      "docsUrl": "https://learn.microsoft.com/azure/azure-monitor/",
+      "port": 8308
     },
     {
       "vendor": "Azure",
@@ -664,7 +943,8 @@
       "description": "List AKS clusters.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Kubernetes", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/aks/"
+      "docsUrl": "https://learn.microsoft.com/azure/aks/",
+      "port": 8309
     },
     {
       "vendor": "Azure",
@@ -673,7 +953,8 @@
       "description": "Query Cosmos DB accounts.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Database", "NoSQL", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/cosmos-db/"
+      "docsUrl": "https://learn.microsoft.com/azure/cosmos-db/",
+      "port": 8310
     },
     {
       "vendor": "Azure",
@@ -682,7 +963,8 @@
       "description": "Access CDN profile information.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "CDN", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/cdn/"
+      "docsUrl": "https://learn.microsoft.com/azure/cdn/",
+      "port": 8311
     },
     {
       "vendor": "Azure",
@@ -691,7 +973,8 @@
       "description": "Query Service Bus namespaces.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Messaging", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/service-bus-messaging/"
+      "docsUrl": "https://learn.microsoft.com/azure/service-bus-messaging/",
+      "port": 8312
     },
     {
       "vendor": "Azure",
@@ -700,7 +983,8 @@
       "description": "Access Event Hub namespaces.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Messaging", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/event-hubs/"
+      "docsUrl": "https://learn.microsoft.com/azure/event-hubs/",
+      "port": 8313
     },
     {
       "vendor": "Azure",
@@ -709,7 +993,8 @@
       "description": "List container registries.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Containers", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/container-registry/"
+      "docsUrl": "https://learn.microsoft.com/azure/container-registry/",
+      "port": 8314
     },
     {
       "vendor": "Azure",
@@ -718,7 +1003,8 @@
       "description": "Query container groups.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Containers", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/container-instances/"
+      "docsUrl": "https://learn.microsoft.com/azure/container-instances/",
+      "port": 8315
     },
     {
       "vendor": "Azure",
@@ -727,7 +1013,8 @@
       "description": "List key vaults.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Security", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/key-vault/"
+      "docsUrl": "https://learn.microsoft.com/azure/key-vault/",
+      "port": 8316
     },
     {
       "vendor": "Azure",
@@ -736,7 +1023,8 @@
       "description": "Query web apps.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Web Apps", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/app-service/"
+      "docsUrl": "https://learn.microsoft.com/azure/app-service/",
+      "port": 8317
     },
     {
       "vendor": "Azure",
@@ -745,7 +1033,8 @@
       "description": "Access Azure AD users via Microsoft Graph API.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Identity", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/active-directory/"
+      "docsUrl": "https://learn.microsoft.com/azure/active-directory/",
+      "port": 8318
     },
     {
       "vendor": "Azure",
@@ -754,8 +1043,78 @@
       "description": "Query Recovery Services vaults.",
       "requirements": "Service principal; Azure AD",
       "category": ["Cloud", "Backup", "Azure"],
-      "docsUrl": "https://learn.microsoft.com/azure/backup/"
+      "docsUrl": "https://learn.microsoft.com/azure/backup/",
+      "port": 8319
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "Compute Engine",
+      "apiVersion": "v1",
+      "description": "Virtual machines, instance templates, machine types, disks across all zones and regions.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Compute", "GCP"],
+      "docsUrl": "https://cloud.google.com/compute/docs/reference/rest/v1",
+      "port": 8400
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "Cloud Storage",
+      "apiVersion": "v1",
+      "description": "Buckets, objects, IAM policies, bucket lifecycle management.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Storage", "GCP"],
+      "docsUrl": "https://cloud.google.com/storage/docs/json_api",
+      "port": 8401
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "BigQuery",
+      "apiVersion": "v2",
+      "description": "Datasets, tables, jobs, query results. Analytics and data warehouse monitoring.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Data Warehouse", "Analytics", "GCP"],
+      "docsUrl": "https://cloud.google.com/bigquery/docs/reference/rest",
+      "port": 8402
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "Cloud SQL",
+      "apiVersion": "v1",
+      "description": "Cloud SQL instances (MySQL, PostgreSQL, SQL Server), backups, users, databases.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Database", "GCP"],
+      "docsUrl": "https://cloud.google.com/sql/docs/mysql/admin-api",
+      "port": 8403
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "Kubernetes Engine",
+      "apiVersion": "v1",
+      "description": "GKE clusters, node pools, cluster operations, versions.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Kubernetes", "GCP"],
+      "docsUrl": "https://cloud.google.com/kubernetes-engine/docs/reference/rest",
+      "port": 8404
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "Cloud Functions",
+      "apiVersion": "v2",
+      "description": "Cloud Functions (2nd gen), triggers, runtimes, deployments.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Serverless", "GCP"],
+      "docsUrl": "https://cloud.google.com/functions/docs/reference/rest",
+      "port": 8405
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "IAM",
+      "apiVersion": "v1",
+      "description": "Service accounts, IAM policies, roles, permissions.",
+      "requirements": "Service account; OAuth 2.0",
+      "category": ["Cloud", "Identity", "Security", "GCP"],
+      "docsUrl": "https://cloud.google.com/iam/docs/reference/rest",
+      "port": 8406
     }
   ]
 }
-
