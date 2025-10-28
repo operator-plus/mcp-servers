@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 121,
-    "total_vendors": 14,
+    "total_servers": 133,
+    "total_vendors": 15,
     "last_updated": "2025-10-28",
     "version": "2.0"
   },
@@ -1215,6 +1215,126 @@
       "category": ["Networking", "Cloud", "SMB"],
       "docsUrl": "https://help.arubainstanton.com",
       "port": 8704
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Management Server",
+      "apiVersion": "1.9",
+      "description": "Centralized firewall management. Gateways, network objects, services, policies (access/NAT/threat), sessions, tasks.",
+      "requirements": "Session auth (X-chkp-sid); HTTPS",
+      "category": ["Security", "Firewall", "Management"],
+      "docsUrl": "https://sc1.checkpoint.com/documents/latest/APIs/",
+      "port": 8800
+    },
+    {
+      "vendor": "Check Point",
+      "product": "CloudGuard",
+      "apiVersion": "1.0.0",
+      "description": "Cloud-native security (CSPM/CWPP). Cloud accounts, assets, alerts, compliance, policies, vulnerabilities, workloads, network security, threat intel.",
+      "requirements": "API key + secret; HTTPS",
+      "category": ["Security", "Cloud Security", "CSPM"],
+      "docsUrl": "https://sc1.checkpoint.com/documents/CloudGuard_Dome9/Documentation/API/",
+      "port": 8801
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Security Gateway",
+      "apiVersion": "1.9",
+      "description": "Individual gateway API. Interfaces, routes, ARP, assets, VPN tunnels, gateway config, threat prevention, logs.",
+      "requirements": "Session auth (X-chkp-sid); HTTPS",
+      "category": ["Security", "Firewall", "Gateway"],
+      "docsUrl": "https://sc1.checkpoint.com/documents/latest/APIs/",
+      "port": 8802
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Harmony Endpoint",
+      "apiVersion": "1.0.0",
+      "description": "Endpoint protection platform. Endpoints, policies, threats, agents, forensics, compliance, vulnerabilities, updates.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Security", "Endpoint Protection", "Anti-Malware"],
+      "docsUrl": "https://sc1.checkpoint.com/documents/Infinity_Portal/",
+      "port": 8803
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Infinity Portal",
+      "apiVersion": "1.0.0",
+      "description": "Unified security console. Gateways, policies, threats, endpoints, cloud accounts, compliance, licenses, users, audit logs, dashboard.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Security", "Management", "Unified Console"],
+      "docsUrl": "https://sc1.checkpoint.com/documents/Infinity_Portal/",
+      "port": 8804
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Management Logs",
+      "apiVersion": "1.9",
+      "description": "Connection and audit log analysis. Log queries with filters, audit trails, blocked connections, VPN logs, threat events, app control, log export.",
+      "requirements": "Session auth (X-chkp-sid); HTTPS",
+      "category": ["Security", "Logging", "Analytics"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8805
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Threat Prevention",
+      "apiVersion": "1.9",
+      "description": "IPS and threat intelligence. Profiles, signatures, policy layers/rules, IOCs, IPS updates, IOC feeds, exceptions, policy status.",
+      "requirements": "Session auth (X-chkp-sid); HTTPS",
+      "category": ["Security", "Threat Prevention", "IPS"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8806
+    },
+    {
+      "vendor": "Check Point",
+      "product": "HTTPS Inspection",
+      "apiVersion": "1.9",
+      "description": "SSL/TLS inspection policies. Layers, rules, URL categories, certificates, bypass exceptions, actions, policy status.",
+      "requirements": "Session auth (X-chkp-sid); HTTPS",
+      "category": ["Security", "SSL Inspection", "Policies"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8807
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Harmony SASE",
+      "apiVersion": "1.0.0",
+      "description": "SASE platform management. Regions, networks, applications, users, policies, connections, bandwidth, tunnels, mobile access, analytics.",
+      "requirements": "API key + secret; HTTPS",
+      "category": ["Security", "SASE", "Cloud"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8808
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Reputation Service",
+      "apiVersion": "1.0.0",
+      "description": "ThreatCloud reputation checking. URL/IP/domain/file reputation, batch checks, category listings.",
+      "requirements": "API key; HTTPS",
+      "category": ["Security", "Threat Intelligence", "Reputation"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8809
+    },
+    {
+      "vendor": "Check Point",
+      "product": "Threat Emulation",
+      "apiVersion": "1.0.0",
+      "description": "Malware analysis via ThreatCloud. File scanning, scan reports, hash queries, status monitoring, quota management, verdicts.",
+      "requirements": "API key; HTTPS",
+      "category": ["Security", "Malware Analysis", "Sandboxing"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8810
+    },
+    {
+      "vendor": "Check Point",
+      "product": "GAIA OS",
+      "apiVersion": "1.9",
+      "description": "Gateway OS network management. Interfaces, routes, DNS, NTP, bonding, VLANs, physical interfaces, asset info, version.",
+      "requirements": "Session auth (X-chkp-sid); HTTPS",
+      "category": ["Security", "Network Management", "Gateway"],
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "port": 8811
     }
   ]
 }
