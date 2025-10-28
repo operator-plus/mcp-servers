@@ -1,0 +1,761 @@
+{
+  "servers": [
+    {
+      "vendor": "Nutanix",
+      "product": "AIOps",
+      "apiVersion": "4.1",
+      "description": "Analysis, Reporting, Capacity Planning, VM Rightsizing, Troubleshooting, and Ops Automation through Playbooks.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Infrastructure", "AI Operations", "Analytics"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Cluster Management",
+      "apiVersion": "4.1",
+      "description": "Manage Hosts, Clusters, and other Nutanix infrastructure.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Infrastructure", "Cluster Management"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Data Policies",
+      "apiVersion": "4.1",
+      "description": "Manage Policies for Disaster Recovery and Storage.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Storage", "Disaster Recovery", "Policies"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Data Protection",
+      "apiVersion": "4.1",
+      "description": "Full spectrum of disaster recovery and backup solutions to manage protection and recovery across on-premises and cloud.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Backup", "Disaster Recovery", "Data Protection"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Files",
+      "apiVersion": "4.1",
+      "description": "Manage virtual file servers, create and configure shares, protect with DR and sync policies.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Storage", "File Services", "NAS"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Identity and Access Management",
+      "apiVersion": "4.0",
+      "description": "Manage User Identity and Access.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Security", "Identity", "Access Management"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Licensing",
+      "apiVersion": "4.1",
+      "description": "Manage licenses for clusters and Prism Central, get information on applied licenses and compliance.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Management", "Licensing", "Compliance"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Life Cycle Management",
+      "apiVersion": "4.1",
+      "description": "Manage Infrastructure, Software and Firmware Upgrades.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Management", "Lifecycle", "Updates"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Flow Microsegmentation",
+      "apiVersion": "4.1",
+      "description": "Network Security Policy configuration, service-groups, address-groups, ID based security.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Security", "Networking", "Microsegmentation"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Monitoring",
+      "apiVersion": "4.1",
+      "description": "Manage Alerts, Alert policies, Events and Audits.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Monitoring", "Alerts", "Events", "Auditing"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Networking",
+      "apiVersion": "4.1",
+      "description": "Manage networking configuration including AHV and advanced networking.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Networking", "Infrastructure"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Objects",
+      "apiVersion": "4.0",
+      "description": "Manage Nutanix Object Store Service.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Storage", "Object Storage", "S3"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Operations Management",
+      "apiVersion": "4.0",
+      "description": "Shared functionality for aiops, devops, secops, and finops domains.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Operations", "Management", "Platform"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Prism",
+      "apiVersion": "4.0",
+      "description": "Manage Tasks, Category Associations and Submit Batch Operations.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Management", "Platform", "Tasks"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Security",
+      "apiVersion": "4.1",
+      "description": "Manage security features, encryption, certificates, and platform hardening.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Security", "Encryption", "Certificates"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Virtual Machine Management",
+      "apiVersion": "4.1",
+      "description": "Life-cycle management of VMs, images, templates, stats, and guest tools.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Virtualization", "VM Management", "Compute"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Nutanix",
+      "product": "Volumes",
+      "apiVersion": "4.1",
+      "description": "Manage volume groups in Nutanix clusters.",
+      "requirements": "Prism Central creds; HTTPS",
+      "category": ["Storage", "Volumes", "Block Storage"],
+      "docsUrl": "https://developers.nutanix.com/api-reference"
+    },
+    {
+      "vendor": "Dell",
+      "product": "PowerFlex",
+      "apiVersion": "4.6",
+      "description": "Storage system management: protection domains, storage pools, volumes, SDC, SDS devices.",
+      "requirements": "Session auth; HTTPS",
+      "category": ["Storage", "Infrastructure", "SDS"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "Networker",
+      "apiVersion": "3.0",
+      "description": "Backup and recovery with VMware integration. 124 tools covering clients, jobs, policies, sessions, and storage.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Backup", "Recovery", "Data Protection"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "PowerScale",
+      "apiVersion": "9.12",
+      "description": "Scale-out NAS storage management and configuration.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Storage", "NAS", "Scale-out"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "DataDomain",
+      "apiVersion": "Latest",
+      "description": "Deduplication storage appliance management for backup and recovery.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Storage", "Backup", "Deduplication"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "iDRAC",
+      "apiVersion": "Latest",
+      "description": "Integrated Dell Remote Access Controller for server management.",
+      "requirements": "Redfish API; HTTPS",
+      "category": ["Server Management", "Infrastructure"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "MX",
+      "apiVersion": "Latest",
+      "description": "Modular infrastructure management for MX7000 chassis.",
+      "requirements": "Redfish API; HTTPS",
+      "category": ["Infrastructure", "Modular Systems"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "OpenManage Enterprise",
+      "apiVersion": "Latest",
+      "description": "Unified server and infrastructure management platform.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Management", "Infrastructure"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "PowerMax",
+      "apiVersion": "Latest",
+      "description": "Enterprise storage array management for mission-critical workloads.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Storage", "Enterprise", "Arrays"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "PowerStore",
+      "apiVersion": "Latest",
+      "description": "Next-gen unified storage for block and file workloads.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Storage", "Block", "File"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "Unity",
+      "apiVersion": "Latest",
+      "description": "Unified storage arrays for block, file, and VVols.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Storage", "Unified", "Arrays"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Dell",
+      "product": "VxRail",
+      "apiVersion": "Latest",
+      "description": "Hyperconverged infrastructure appliances powered by VMware.",
+      "requirements": "API creds; HTTPS",
+      "category": ["HCI", "Hyperconverged", "VMware"],
+      "docsUrl": "https://developer.dell.com/apis"
+    },
+    {
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "apiVersion": "11.0",
+      "description": "Read-only firewall access: address/service objects, security/NAT policies, network interfaces, routing (BGP/OSPF/static).",
+      "requirements": "API key or username/password; Read-only",
+      "category": ["Security", "Firewall", "Networking"],
+      "docsUrl": "https://docs.paloaltonetworks.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Nexus NX-API",
+      "apiVersion": "10.6",
+      "description": "Data center switch monitoring with 70+ show commands for Nexus 3000/9000 switches.",
+      "requirements": "Basic auth; HTTPS",
+      "category": ["Networking", "Data Center", "Switching"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "DNA Center",
+      "apiVersion": "Latest",
+      "description": "Campus network automation and assurance with 15+ endpoints.",
+      "requirements": "Token auth; HTTPS",
+      "category": ["Networking", "Campus", "Automation"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Meraki Dashboard",
+      "apiVersion": "v1",
+      "description": "Cloud-managed infrastructure with 90+ endpoints for all Meraki devices.",
+      "requirements": "API key",
+      "category": ["Networking", "Cloud", "WiFi"],
+      "docsUrl": "https://developer.cisco.com/meraki/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Firewall Management Center",
+      "apiVersion": "7.7",
+      "description": "Centralized firewall management with 100+ endpoints for multi-device control.",
+      "requirements": "Token auth; HTTPS",
+      "category": ["Security", "Firewall", "Management"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Firepower Device Manager",
+      "apiVersion": "Latest",
+      "description": "Local firewall management for individual FTD devices with 100+ endpoints.",
+      "requirements": "OAuth 2.0; HTTPS",
+      "category": ["Security", "Firewall", "Threat Defense"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Identity Services Engine",
+      "apiVersion": "Latest",
+      "description": "Network Access Control and zero trust with 15+ endpoints.",
+      "requirements": "Basic auth; HTTPS",
+      "category": ["Security", "NAC", "Identity"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "SD-WAN vManage",
+      "apiVersion": "Latest",
+      "description": "WAN orchestration for SD-WAN edge routers with 12+ endpoints.",
+      "requirements": "Cookie + CSRF; HTTPS",
+      "category": ["Networking", "WAN", "SD-WAN"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "UCS Manager",
+      "apiVersion": "Latest",
+      "description": "Compute infrastructure management for UCS blade and rack servers with 12+ queries.",
+      "requirements": "Cookie auth; XML API",
+      "category": ["Compute", "Servers", "Infrastructure"],
+      "docsUrl": "https://developer.cisco.com/"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Intersight",
+      "apiVersion": "Latest",
+      "description": "Cloud-based infrastructure management for UCS, HyperFlex, Nexus with 10+ endpoints.",
+      "requirements": "API key; HTTPS",
+      "category": ["Infrastructure", "Cloud", "Management"],
+      "docsUrl": "https://intersight.com/apidocs/"
+    },
+    {
+      "vendor": "VMware",
+      "product": "vSphere",
+      "apiVersion": "8.0",
+      "description": "vCenter inventory, events, and automation hooks.",
+      "requirements": "vCenter user; TLS",
+      "category": ["Virtualization", "Infrastructure", "Compute"],
+      "docsUrl": "https://developer.vmware.com/"
+    },
+    {
+      "vendor": "VMware",
+      "product": "NSX Autonomous Edge",
+      "apiVersion": "Latest",
+      "description": "Edge networking and security for autonomous edge deployments.",
+      "requirements": "API creds; HTTPS",
+      "category": ["Networking", "Security", "Edge"],
+      "docsUrl": "https://developer.vmware.com/"
+    },
+    {
+      "vendor": "Pure Storage",
+      "product": "FlashArray",
+      "apiVersion": "Latest",
+      "description": "Enterprise all-flash storage array management.",
+      "requirements": "API token; HTTPS",
+      "category": ["Storage", "Flash", "Enterprise"],
+      "docsUrl": "https://support.purestorage.com/"
+    },
+    {
+      "vendor": "Fortinet",
+      "product": "FortiGate",
+      "apiVersion": "Latest",
+      "description": "Next-generation firewall management and security.",
+      "requirements": "API key; HTTPS",
+      "category": ["Security", "Firewall", "NGFW"],
+      "docsUrl": "https://docs.fortinet.com/"
+    },
+    {
+      "vendor": "Akamai",
+      "product": "EdgeGrid",
+      "apiVersion": "Latest",
+      "description": "CDN, edge security, and edge computing with 25+ endpoints covering Property Manager, WAF, Bot Manager, DNS, EdgeWorkers.",
+      "requirements": "EdgeGrid HMAC; HTTPS",
+      "category": ["CDN", "Edge", "Security"],
+      "docsUrl": "https://techdocs.akamai.com/developer/"
+    },
+    {
+      "vendor": "Linode",
+      "product": "Cloud API",
+      "apiVersion": "Latest",
+      "description": "Complete cloud infrastructure with 60+ endpoints: compute, storage, networking, Kubernetes.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Cloud", "Infrastructure", "Compute"],
+      "docsUrl": "https://www.linode.com/docs/api/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "EC2",
+      "apiVersion": "2024",
+      "description": "Virtual machines, security groups, EBS volumes with 6+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Compute", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/ec2/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "VPC",
+      "apiVersion": "2024",
+      "description": "Networking, subnets, route tables with 6+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Networking", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/vpc/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "S3",
+      "apiVersion": "2024",
+      "description": "Object storage and bucket management.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Storage", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/s3/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "IAM",
+      "apiVersion": "2024",
+      "description": "Users, roles, and policies with 3+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Security", "Identity", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/iam/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "Elastic Load Balancing",
+      "apiVersion": "2024",
+      "description": "Load balancers and target groups with 2+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Networking", "Load Balancing", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/elasticloadbalancing/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "RDS",
+      "apiVersion": "2024",
+      "description": "Managed databases (MySQL, PostgreSQL, Aurora) with 4+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Database", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/rds/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "Lambda",
+      "apiVersion": "2024",
+      "description": "Serverless functions and layers with 2+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Serverless", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/lambda/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "EKS",
+      "apiVersion": "2024",
+      "description": "Kubernetes clusters and node groups with 2+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Kubernetes", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/eks/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "CloudWatch",
+      "apiVersion": "2024",
+      "description": "Metrics, alarms, and monitoring with 2+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Monitoring", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/cloudwatch/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "Route53",
+      "apiVersion": "2024",
+      "description": "DNS, hosted zones, and health checks with 2+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "DNS", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/route53/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "DynamoDB",
+      "apiVersion": "2024",
+      "description": "NoSQL database table management.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Database", "NoSQL", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/dynamodb/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "CloudFront",
+      "apiVersion": "2024",
+      "description": "CDN distribution management.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "CDN", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/cloudfront/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "SQS",
+      "apiVersion": "2024",
+      "description": "Message queue service.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Messaging", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/sqs/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "SNS",
+      "apiVersion": "2024",
+      "description": "Pub/sub notifications and topics.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Messaging", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/sns/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "ECR",
+      "apiVersion": "2024",
+      "description": "Container image registry.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Containers", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/ecr/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "ECS",
+      "apiVersion": "2024",
+      "description": "Container orchestration and Fargate with 2+ operations.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Containers", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/ecs/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "CloudFormation",
+      "apiVersion": "2024",
+      "description": "Infrastructure as Code stack management.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "IaC", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/cloudformation/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "Systems Manager",
+      "apiVersion": "2024",
+      "description": "Fleet management and patch management.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Management", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/systems-manager/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "Secrets Manager",
+      "apiVersion": "2024",
+      "description": "Secret rotation and storage.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Security", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/secretsmanager/"
+    },
+    {
+      "vendor": "AWS",
+      "product": "KMS",
+      "apiVersion": "2024",
+      "description": "Encryption key management.",
+      "requirements": "AWS credentials; SigV4",
+      "category": ["Cloud", "Security", "Encryption", "AWS"],
+      "docsUrl": "https://docs.aws.amazon.com/kms/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Virtual Machines",
+      "apiVersion": "2024-07",
+      "description": "List and query Azure VMs across all resource groups.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Compute", "Azure"],
+      "docsUrl": "https://docs.microsoft.com/azure/virtual-machines/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Storage Accounts",
+      "apiVersion": "Latest",
+      "description": "Access Azure Storage account information.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Storage", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/storage/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Virtual Networks",
+      "apiVersion": "Latest",
+      "description": "Query Azure Virtual Networks.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Networking", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/virtual-network/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Resource Groups",
+      "apiVersion": "Latest",
+      "description": "List and query resource groups.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Management", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/azure-resource-manager/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "SQL Database",
+      "apiVersion": "Latest",
+      "description": "Access Azure SQL Server information.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Database", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/sql-database/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Functions",
+      "apiVersion": "Latest",
+      "description": "Query Azure Functions apps.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Serverless", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/azure-functions/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Load Balancer",
+      "apiVersion": "Latest",
+      "description": "Access load balancer configurations.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Networking", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/load-balancer/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "DNS",
+      "apiVersion": "Latest",
+      "description": "Query DNS zones.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "DNS", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/dns/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Monitor",
+      "apiVersion": "Latest",
+      "description": "Access Azure Monitor metrics.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Monitoring", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/azure-monitor/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Kubernetes Service",
+      "apiVersion": "Latest",
+      "description": "List AKS clusters.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Kubernetes", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/aks/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Cosmos DB",
+      "apiVersion": "Latest",
+      "description": "Query Cosmos DB accounts.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Database", "NoSQL", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/cosmos-db/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "CDN",
+      "apiVersion": "Latest",
+      "description": "Access CDN profile information.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "CDN", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/cdn/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Service Bus",
+      "apiVersion": "Latest",
+      "description": "Query Service Bus namespaces.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Messaging", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/service-bus-messaging/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Event Hubs",
+      "apiVersion": "Latest",
+      "description": "Access Event Hub namespaces.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Messaging", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/event-hubs/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Container Registry",
+      "apiVersion": "Latest",
+      "description": "List container registries.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Containers", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/container-registry/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Container Instances",
+      "apiVersion": "Latest",
+      "description": "Query container groups.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Containers", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/container-instances/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Key Vault",
+      "apiVersion": "Latest",
+      "description": "List key vaults.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Security", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/key-vault/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "App Service",
+      "apiVersion": "Latest",
+      "description": "Query web apps.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Web Apps", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/app-service/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Active Directory",
+      "apiVersion": "Latest",
+      "description": "Access Azure AD users via Microsoft Graph API.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Identity", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/active-directory/"
+    },
+    {
+      "vendor": "Azure",
+      "product": "Backup",
+      "apiVersion": "Latest",
+      "description": "Query Recovery Services vaults.",
+      "requirements": "Service principal; Azure AD",
+      "category": ["Cloud", "Backup", "Azure"],
+      "docsUrl": "https://learn.microsoft.com/azure/backup/"
+    }
+  ]
+}
+
