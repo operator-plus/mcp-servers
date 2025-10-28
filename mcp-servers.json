@@ -1165,6 +1165,56 @@
       "category": ["Networking", "Telemetry", "Analytics"],
       "docsUrl": "https://www.arista.com/en/products/eos/eos-telemetry",
       "port": 8604
+    },
+    {
+      "vendor": "Aruba",
+      "product": "Central",
+      "apiVersion": "2.0.0",
+      "description": "Cloud-native network management. Devices (APs/switches/gateways), clients, sites, groups, alerts, networks, firmware, audit logs, licenses.",
+      "requirements": "Bearer token or OAuth 2.0; HTTPS",
+      "category": ["Networking", "Cloud", "Management"],
+      "docsUrl": "https://developer.arubanetworks.com/aruba-central",
+      "port": 8700
+    },
+    {
+      "vendor": "Aruba",
+      "product": "ClearPass",
+      "apiVersion": "6.12.0",
+      "description": "Network Access Control. Endpoints, sessions, guests, NADs, roles, policies, auth sources, posture, certificates, insights, cluster status.",
+      "requirements": "Bearer token or OAuth 2.0; HTTPS",
+      "category": ["Security", "NAC", "Policy Management"],
+      "docsUrl": "https://developer.arubanetworks.com/aruba-cppm",
+      "port": 8701
+    },
+    {
+      "vendor": "Aruba",
+      "product": "AOS-CX",
+      "apiVersion": "10.13.0",
+      "description": "Data center switch API. System info, interfaces, VLANs, ports, LLDP, MAC tables, routing, BGP, OSPF, VSF.",
+      "requirements": "Basic auth; HTTPS",
+      "category": ["Networking", "Switching", "Data Center"],
+      "docsUrl": "https://developer.arubanetworks.com/aruba-aoscx",
+      "port": 8702
+    },
+    {
+      "vendor": "Aruba",
+      "product": "AirWave",
+      "apiVersion": "8.x",
+      "description": "On-premises network management. APs, switches, controllers, clients, alerts, AMP server status, radios, sites.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Networking", "Management", "On-Premises"],
+      "docsUrl": "https://www.arubanetworks.com/techdocs/AirWave/",
+      "port": 8703
+    },
+    {
+      "vendor": "Aruba",
+      "product": "InstantOn",
+      "apiVersion": "1.0.0",
+      "description": "SMB cloud-managed networking. Devices (APs/switches), clients, networks, sites, alerts, firmware.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Networking", "Cloud", "SMB"],
+      "docsUrl": "https://help.arubainstanton.com",
+      "port": 8704
     }
   ]
 }
