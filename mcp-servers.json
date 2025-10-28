@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 111,
-    "total_vendors": 14,
+    "total_servers": 116,
+    "total_vendors": 15,
     "last_updated": "2025-10-28",
     "version": "2.0"
   },
@@ -1115,6 +1115,56 @@
       "category": ["Cloud", "Identity", "Security", "GCP"],
       "docsUrl": "https://cloud.google.com/iam/docs/reference/rest",
       "port": 8406
+    },
+    {
+      "vendor": "Arista",
+      "product": "CloudVision Portal",
+      "apiVersion": "2024.1.0",
+      "description": "Network-wide workload orchestration and workflow management. Device inventory, configlets, tasks, change control, events, topology.",
+      "requirements": "Bearer token or basic auth; HTTPS",
+      "category": ["Networking", "Management", "Automation"],
+      "docsUrl": "https://www.arista.com/en/um-cvp/cvp-resource-apis/cvp-restful-api-overview",
+      "port": 8600
+    },
+    {
+      "vendor": "Arista",
+      "product": "EOS eAPI",
+      "apiVersion": "Latest",
+      "description": "RESTful JSON-RPC API for EOS switches/routers. Show commands for version, interfaces, VLANs, MAC tables, routing, BGP, config.",
+      "requirements": "Basic auth; HTTPS",
+      "category": ["Networking", "Switching", "Routing"],
+      "docsUrl": "https://www.arista.com/en/um-eos/eos-section-6-2-eapi-programming-interface",
+      "port": 8601
+    },
+    {
+      "vendor": "Arista",
+      "product": "CloudVision as a Service",
+      "apiVersion": "1.0.0",
+      "description": "Cloud-based network management. Devices, device tags, workspaces, streaming telemetry, events, alerts, studios, topology.",
+      "requirements": "API key + secret; HTTPS",
+      "category": ["Networking", "Cloud", "Telemetry"],
+      "docsUrl": "https://www.arista.com/en/cg-cv/cv-resource-apis",
+      "port": 8602
+    },
+    {
+      "vendor": "Arista",
+      "product": "Wireless",
+      "apiVersion": "1.0.0",
+      "description": "Cloud-managed wireless solution. Access points, clients, SSIDs, sites, RF profiles, WLAN profiles, alerts, analytics.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Wireless", "Cloud", "Networking"],
+      "docsUrl": "https://www.arista.com/en/products/wireless",
+      "port": 8603
+    },
+    {
+      "vendor": "Arista",
+      "product": "DMF",
+      "apiVersion": "1.0.0",
+      "description": "Data Model Framework for streaming telemetry. Datasets, streams, subscriptions, metrics, analytics, collectors, exporters, dashboards.",
+      "requirements": "Bearer token; HTTPS",
+      "category": ["Networking", "Telemetry", "Analytics"],
+      "docsUrl": "https://www.arista.com/en/products/eos/eos-telemetry",
+      "port": 8604
     }
   ]
 }
