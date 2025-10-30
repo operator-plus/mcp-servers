@@ -837,7 +837,7 @@
       "vendor": "AWS",
       "product": "EC2",
       "apiVersion": "2024",
-      "description": "Virtual machines, security groups, EBS volumes with 6+ operations.",
+      "description": "Comprehensive EC2 management: instances, networking (VPC, subnets, route tables, ENIs, NAT/internet gateways, VPN, transit gateways), storage (EBS volumes/snapshots), AMIs, spot/reserved instances, regions/AZs, tags, and flow logs with 30+ operations.",
       "requirements": "AWS credentials; SigV4",
       "category": [
         "Cloud",
