@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 163,
-    "total_vendors": 19,
+    "total_servers": 173,
+    "total_vendors": 20,
     "last_updated": "2025-10-30",
     "version": "2.0"
   },
@@ -2126,6 +2126,136 @@
         "Dynamic Provisioning"
       ],
       "docsUrl": "https://docs.netapp.com/us-en/trident/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "Database",
+      "apiVersion": "19c+",
+      "description": "Oracle Database management via ORDS. Monitor instances, tablespaces, sessions, datafiles, performance metrics, SQL statements.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Database",
+        "Performance Monitoring",
+        "SQL"
+      ],
+      "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "OCI Compute",
+      "apiVersion": "20160918",
+      "description": "Oracle Cloud Infrastructure Compute. Monitor instances, VNIC attachments, volume attachments, images.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Cloud",
+        "Virtual Machines",
+        "Compute"
+      ],
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "Autonomous Database",
+      "apiVersion": "20160918",
+      "description": "Oracle Autonomous Database self-driving database. Monitor ADB instances, backups for automated database management.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Autonomous Database",
+        "Cloud Database",
+        "AI Operations"
+      ],
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/#/en/database/latest/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "Exadata",
+      "apiVersion": "20160918",
+      "description": "Oracle Exadata engineered systems. Monitor DB systems, Exadata infrastructures, VM clusters for high-performance database operations.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Exadata",
+        "Engineered Systems",
+        "Database Infrastructure"
+      ],
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/#/en/database/latest/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "Enterprise Manager",
+      "apiVersion": "13.5+",
+      "description": "Oracle Enterprise Manager systems management. Monitor targets (databases, hosts, middleware), incidents, alerts, metrics.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Systems Management",
+        "Monitoring",
+        "Enterprise"
+      ],
+      "docsUrl": "https://docs.oracle.com/en/enterprise-manager/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "OCI Networking",
+      "apiVersion": "20160918",
+      "description": "Oracle Cloud Infrastructure networking. Monitor VCNs, subnets, security lists, network load balancers.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Cloud Networking",
+        "VCN",
+        "Load Balancing"
+      ],
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "OCI Object Storage",
+      "apiVersion": "20160918",
+      "description": "Oracle Cloud Infrastructure Object Storage. Monitor buckets, objects, namespaces for cloud storage operations.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Object Storage",
+        "Cloud Storage",
+        "S3-Compatible"
+      ],
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "OKE (Kubernetes Engine)",
+      "apiVersion": "20180222",
+      "description": "Oracle Kubernetes Engine. Monitor OKE clusters, node pools for managed Kubernetes operations.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Kubernetes",
+        "Container Orchestration",
+        "Cloud Native"
+      ],
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/Content/ContEng/home.htm"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "apiVersion": "12.2.1+",
+      "description": "Oracle WebLogic Server middleware. Monitor domain runtime, servers, applications, JDBC datasources.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Middleware",
+        "Application Server",
+        "Java EE"
+      ],
+      "docsUrl": "https://docs.oracle.com/en/middleware/fusion-middleware/weblogic-server/"
+    },
+    {
+      "vendor": "Oracle",
+      "product": "RAC (Real Application Clusters)",
+      "apiVersion": "19c+",
+      "description": "Oracle Real Application Clusters. Monitor cluster info, instances, services, interconnects for high availability.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "High Availability",
+        "Database Clustering",
+        "RAC"
+      ],
+      "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/19/racad/"
     }
   ]
 }
