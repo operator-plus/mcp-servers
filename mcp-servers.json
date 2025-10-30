@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 173,
-    "total_vendors": 20,
+    "total_servers": 178,
+    "total_vendors": 21,
     "last_updated": "2025-10-30",
     "version": "2.0"
   },
@@ -2256,6 +2256,71 @@
         "RAC"
       ],
       "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/19/racad/"
+    },
+    {
+      "vendor": "Rackspace",
+      "product": "Cloud Servers",
+      "apiVersion": "v2",
+      "description": "Rackspace Cloud Servers (OpenStack Nova). Monitor server instances, flavors, images for cloud compute operations.",
+      "requirements": "API token (X-Auth-Token) or username/password; HTTPS",
+      "category": [
+        "Cloud Compute",
+        "OpenStack",
+        "Virtual Machines"
+      ],
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-servers/v2/"
+    },
+    {
+      "vendor": "Rackspace",
+      "product": "Cloud Block Storage",
+      "apiVersion": "v1",
+      "description": "Rackspace Cloud Block Storage (OpenStack Cinder). Monitor volumes, snapshots, volume types for persistent storage.",
+      "requirements": "API token (X-Auth-Token) or username/password; HTTPS",
+      "category": [
+        "Block Storage",
+        "OpenStack",
+        "Volumes"
+      ],
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-block-storage/v1/"
+    },
+    {
+      "vendor": "Rackspace",
+      "product": "Cloud Load Balancers",
+      "apiVersion": "v1.0",
+      "description": "Rackspace Cloud Load Balancers. Monitor load balancers, nodes, health monitors, statistics for traffic distribution.",
+      "requirements": "API token (X-Auth-Token) or username/password; HTTPS",
+      "category": [
+        "Load Balancing",
+        "Traffic Management",
+        "High Availability"
+      ],
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-load-balancers/v1/"
+    },
+    {
+      "vendor": "Rackspace",
+      "product": "Cloud Networks",
+      "apiVersion": "v2.0",
+      "description": "Rackspace Cloud Networks (OpenStack Neutron). Monitor networks, subnets, ports, security groups for network management.",
+      "requirements": "API token (X-Auth-Token) or username/password; HTTPS",
+      "category": [
+        "Networking",
+        "OpenStack",
+        "Security Groups"
+      ],
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-networks/v2/"
+    },
+    {
+      "vendor": "Rackspace",
+      "product": "Cloud DNS",
+      "apiVersion": "v1.0",
+      "description": "Rackspace Cloud DNS. Monitor domains, DNS records for managed DNS operations.",
+      "requirements": "API token (X-Auth-Token) or username/password; HTTPS",
+      "category": [
+        "DNS",
+        "Domain Management",
+        "Name Services"
+      ],
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-dns/v1/"
     }
   ]
 }
