@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 138,
-    "total_vendors": 16,
+    "total_servers": 143,
+    "total_vendors": 17,
     "last_updated": "2025-10-30",
     "version": "2.0"
   },
@@ -1801,6 +1801,71 @@
         "Authentication"
       ],
       "docsUrl": "https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/"
+    },
+    {
+      "vendor": "HPE",
+      "product": "OneView",
+      "apiVersion": "1.0.0",
+      "description": "HPE OneView infrastructure management. Monitor server profiles, hardware, enclosures, logical interconnects, storage volumes, storage systems, templates, firmware.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Infrastructure Management",
+        "Server Management",
+        "Storage"
+      ],
+      "docsUrl": "https://www.hpe.com/us/en/servers/oneview.html"
+    },
+    {
+      "vendor": "HPE",
+      "product": "iLO",
+      "apiVersion": "1.0.0",
+      "description": "HPE Integrated Lights-Out server management. Monitor systems, chassis, managers, thermal sensors, power, event logs, accounts, firmware via Redfish API.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Server Management",
+        "Hardware Monitoring",
+        "Redfish"
+      ],
+      "docsUrl": "https://hewlettpackard.github.io/ilo-rest-api-docs/"
+    },
+    {
+      "vendor": "HPE",
+      "product": "SimpliVity",
+      "apiVersion": "1.0.0",
+      "description": "HPE SimpliVity hyperconverged infrastructure. Monitor virtual machines, hosts, datastores, backups, policies, OmniStack clusters, hardware.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Hyperconverged",
+        "Virtualization",
+        "Backup"
+      ],
+      "docsUrl": "https://developer.hpe.com/platform/hpe-simplivity/home/"
+    },
+    {
+      "vendor": "HPE",
+      "product": "Nimble Storage",
+      "apiVersion": "3.0",
+      "description": "HPE Nimble Storage management. Monitor volumes, arrays, pools, snapshots, protection templates, initiator groups, performance policies, alarms.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Storage",
+        "Performance Monitoring",
+        "Data Protection"
+      ],
+      "docsUrl": "https://infosight.hpe.com/InfoSight/media/cms/active/public/pubs_REST_API_Reference_NOS_50x.whz"
+    },
+    {
+      "vendor": "HPE",
+      "product": "Primera/3PAR",
+      "apiVersion": "1.0.0",
+      "description": "HPE Primera and 3PAR storage systems. Monitor volumes, volume sets, hosts, host sets, CPGs, system info, capacity, ports, VLUNs.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Enterprise Storage",
+        "SAN",
+        "Storage Arrays"
+      ],
+      "docsUrl": "https://support.hpe.com/hpesc/public/docDisplay?docId=a00118636en_us"
     }
   ]
 }
