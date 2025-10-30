@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 143,
-    "total_vendors": 17,
+    "total_servers": 148,
+    "total_vendors": 18,
     "last_updated": "2025-10-30",
     "version": "2.0"
   },
@@ -1866,6 +1866,71 @@
         "Storage Arrays"
       ],
       "docsUrl": "https://support.hpe.com/hpesc/public/docDisplay?docId=a00118636en_us"
+    },
+    {
+      "vendor": "Juniper Networks",
+      "product": "Mist",
+      "apiVersion": "1.0.0",
+      "description": "Juniper Mist AI-driven cloud networking. Monitor organizations, sites, wireless devices, clients, WLANs, RF templates, AI insights, alarms.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Wireless",
+        "AI Operations",
+        "Cloud Networking"
+      ],
+      "docsUrl": "https://api.mist.com/api/v1/docs/"
+    },
+    {
+      "vendor": "Juniper Networks",
+      "product": "Apstra",
+      "apiVersion": "1.0.0",
+      "description": "Juniper Apstra intent-based networking. Monitor blueprints, systems, devices, anomalies, probes, racks, virtual networks, routing zones.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Data Center",
+        "Intent-Based Networking",
+        "Fabric Management"
+      ],
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/apstra/"
+    },
+    {
+      "vendor": "Juniper Networks",
+      "product": "Junos OS",
+      "apiVersion": "1.0.0",
+      "description": "Junos OS network device management. Query system info, interfaces, routes, BGP/OSPF neighbors, chassis inventory, alarms, software, environment, config.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Network Management",
+        "Routing",
+        "NETCONF"
+      ],
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos-pyez/"
+    },
+    {
+      "vendor": "Juniper Networks",
+      "product": "Contrail",
+      "apiVersion": "1.0.0",
+      "description": "Juniper Contrail SDN controller. Monitor virtual networks, policies, VMs, virtual routers, service instances, floating IPs, security groups, analytics.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "SDN",
+        "Network Virtualization",
+        "Cloud Networking"
+      ],
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/contrail/"
+    },
+    {
+      "vendor": "Juniper Networks",
+      "product": "SRX",
+      "apiVersion": "1.0.0",
+      "description": "Juniper SRX next-generation firewall. Monitor security policies, zones, NAT rules, IPsec VPNs, IKE gateways, UTM, IDP, active sessions, security logs.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Firewall",
+        "VPN",
+        "Intrusion Prevention"
+      ],
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos/security-policies/"
     }
   ]
 }
