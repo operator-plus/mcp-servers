@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_servers": 148,
-    "total_vendors": 18,
+    "total_servers": 163,
+    "total_vendors": 19,
     "last_updated": "2025-10-30",
     "version": "2.0"
   },
@@ -1931,6 +1931,201 @@
         "Intrusion Prevention"
       ],
       "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos/security-policies/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "ONTAP",
+      "apiVersion": "9.6+",
+      "description": "NetApp ONTAP unified storage OS. Monitor volumes, aggregates, SVMs, snapshots, qtrees, LUNs, NFS exports, cluster nodes.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Storage",
+        "SAN",
+        "NAS"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/ontap-automation/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Element (SolidFire)",
+      "apiVersion": "12.0+",
+      "description": "NetApp Element all-flash storage. Monitor volumes, accounts, cluster info, drives, nodes, snapshots.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "All-Flash",
+        "Scale-Out Storage",
+        "SAN"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/element-software/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "E-Series (SANtricity)",
+      "apiVersion": "11.70+",
+      "description": "NetApp E-Series performance storage. Monitor storage systems, volumes, pools, drives, controllers, hardware inventory.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Performance Storage",
+        "SAN",
+        "Block Storage"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/e-series/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "StorageGRID",
+      "apiVersion": "11.6+",
+      "description": "NetApp StorageGRID object storage. Monitor tenant accounts, grid nodes, sites, health status.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Object Storage",
+        "S3",
+        "Cloud Storage"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/storagegrid-116/admin/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Active IQ",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Active IQ AI-driven analytics. Monitor systems, wellness scores, capacity forecasting, performance analytics, risks, recommendations.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "AI Analytics",
+        "Predictive Analytics",
+        "System Health"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/active-iq/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Cloud Volumes ONTAP",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Cloud Volumes ONTAP in AWS/Azure/GCP. Monitor working environments, aggregates, volumes across cloud providers.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Cloud Storage",
+        "Hybrid Cloud",
+        "Multi-Cloud"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Cloud Manager (BlueXP)",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Cloud Manager unified control plane. Monitor accounts, connectors, working environments across hybrid cloud.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Cloud Management",
+        "Hybrid Cloud",
+        "Control Plane"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-automation/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Cloud Insights",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Cloud Insights monitoring and analytics. Monitor storage systems, hosts, data sources, performance metrics.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Cloud Monitoring",
+        "Analytics",
+        "Multi-Cloud"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/cloudinsights/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Cloud Backup",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Cloud Backup service. Monitor working environments, backups, policies for cloud-based data protection.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Cloud Backup",
+        "Data Protection",
+        "Multi-Cloud"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-backup-restore/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Cloud Sync",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Cloud Sync data migration. Monitor sync relationships, data brokers, sync jobs for data synchronization.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Data Migration",
+        "Synchronization",
+        "Cloud"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-sync/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "SnapCenter",
+      "apiVersion": "4.9+",
+      "description": "NetApp SnapCenter backup automation. Monitor hosts, backups, policies, resources, jobs for application-consistent data protection.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Backup",
+        "Data Protection",
+        "Application Consistency"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/snapcenter/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "SnapMirror",
+      "apiVersion": "9.6+",
+      "description": "NetApp SnapMirror replication. Monitor replication relationships, policies, destinations for disaster recovery.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Replication",
+        "Disaster Recovery",
+        "Data Protection"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/ontap/data-protection/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "MetroCluster",
+      "apiVersion": "9.6+",
+      "description": "NetApp MetroCluster continuous availability. Monitor configuration, diagnostics, nodes for zero-downtime operations.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "High Availability",
+        "Disaster Recovery",
+        "Continuous Operations"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/ontap-metrocluster/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Astra Control",
+      "apiVersion": "1.0.0",
+      "description": "NetApp Astra Control for Kubernetes. Monitor clusters, applications, snapshots, backups for cloud-native data management.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Kubernetes",
+        "Container Storage",
+        "Data Management"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/astra-automation/"
+    },
+    {
+      "vendor": "NetApp",
+      "product": "Trident",
+      "apiVersion": "24.02+",
+      "description": "NetApp Trident CSI driver for Kubernetes. Monitor storage backends, volumes, storage classes, snapshots for dynamic provisioning.",
+      "requirements": "Bearer token or username/password; HTTPS",
+      "category": [
+        "Kubernetes",
+        "CSI Driver",
+        "Dynamic Provisioning"
+      ],
+      "docsUrl": "https://docs.netapp.com/us-en/trident/"
     }
   ]
 }
