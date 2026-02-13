@@ -66,7 +66,8 @@ Other applications can consume this data to:
       "description": "What this MCP does...",
       "requirements": "Auth type; Protocol",
       "category": ["Category1", "Category2"],
-      "docsUrl": "https://docs.vendor.com/"
+      "docsUrl": "https://docs.vendor.com/",
+      "environmental_variables": ["ENV_VAR_1", "ENV_VAR_2"]
     }
   ]
 }
@@ -83,6 +84,7 @@ Other applications can consume this data to:
 | `requirements` | string | Auth & connection requirements | "API key; HTTPS" |
 | `category` | array | Tags for categorization | ["Cloud", "Compute"] |
 | `docsUrl` | string | Link to vendor docs | "https://docs..." |
+| `environmental_variables` | array | Env var names required by the MCP (from operator-plus repo) | ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"] |
 
 ---
 
@@ -110,6 +112,16 @@ fetch('https://cdn.jsdelivr.net/gh/YOUR_USERNAME/operator-plus@main/mcp-servers/
 
 ## ✏️ Updating the Data
 
+### Populating environmental_variables
+
+The `environmental_variables` array on each server is filled from the MCP server implementations in the operator-plus directory. To refresh it after adding or changing MCP servers in the repo:
+
+```bash
+node scripts/populate-environmental-variables.js
+```
+
+The script maps JSON `vendor`/`product` to repo paths (e.g. `nutanix/aiops`) and assigns the env var names used by each implementation (from `os.Getenv(...)` in Go, etc.). Servers without a matching implementation in operator-plus keep an empty array.
+
 ### Adding a New MCP Server
 
 1. **Edit** `mcp-servers.json`
@@ -122,11 +134,13 @@ fetch('https://cdn.jsdelivr.net/gh/YOUR_USERNAME/operator-plus@main/mcp-servers/
      "description": "Description here...",
      "requirements": "API key; HTTPS",
      "category": ["Infrastructure"],
-     "docsUrl": "https://docs.newvendor.com/"
+     "docsUrl": "https://docs.newvendor.com/",
+     "environmental_variables": []
    }
    ```
-3. **Commit** and push to GitHub
-4. **Website updates automatically** on next page load!
+3. If the MCP exists in operator-plus, run `node scripts/populate-environmental-variables.js` to fill `environmental_variables`.
+4. **Commit** and push to GitHub
+5. **Website updates automatically** on next page load!
 
 ### Updating an Existing MCP
 

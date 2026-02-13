@@ -17,7 +17,15 @@
         "AI Operations",
         "Analytics"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -29,7 +37,15 @@
         "Infrastructure",
         "Cluster Management"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -42,7 +58,15 @@
         "Disaster Recovery",
         "Policies"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -55,7 +79,15 @@
         "Disaster Recovery",
         "Data Protection"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -68,7 +100,15 @@
         "File Services",
         "NAS"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -81,7 +121,15 @@
         "Identity",
         "Access Management"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -94,7 +142,15 @@
         "Licensing",
         "Compliance"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -107,7 +163,15 @@
         "Lifecycle",
         "Updates"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -120,7 +184,15 @@
         "Networking",
         "Microsegmentation"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -134,7 +206,15 @@
         "Events",
         "Auditing"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -146,7 +226,15 @@
         "Networking",
         "Infrastructure"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -159,7 +247,15 @@
         "Object Storage",
         "S3"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -172,7 +268,15 @@
         "Management",
         "Platform"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -185,7 +289,15 @@
         "Platform",
         "Tasks"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -198,7 +310,15 @@
         "Encryption",
         "Certificates"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -211,7 +331,15 @@
         "VM Management",
         "Compute"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Nutanix",
@@ -224,7 +352,15 @@
         "Volumes",
         "Block Storage"
       ],
-      "docsUrl": "https://developers.nutanix.com/api-reference"
+      "docsUrl": "https://developers.nutanix.com/api-reference",
+      "environmental_variables": [
+        "NUTANIX_ENDPOINT",
+        "NUTANIX_USERNAME",
+        "NUTANIX_PASSWORD",
+        "NUTANIX_API_KEY",
+        "NUTANIX_INSECURE",
+        "PORT"
+      ]
     },
     {
       "vendor": "Dell",
@@ -237,7 +373,8 @@
         "Infrastructure",
         "SDS"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": []
     },
     {
       "vendor": "Dell",
@@ -250,7 +387,8 @@
         "Recovery",
         "Data Protection"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": []
     },
     {
       "vendor": "Dell",
@@ -263,7 +401,12 @@
         "NAS",
         "Scale-out"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "POWERSCALE_BASE_URL",
+        "POWERSCALE_USERNAME",
+        "POWERSCALE_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -276,7 +419,12 @@
         "Backup",
         "Deduplication"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -288,7 +436,12 @@
         "Server Management",
         "Infrastructure"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -300,7 +453,12 @@
         "Infrastructure",
         "Modular Systems"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -312,7 +470,12 @@
         "Management",
         "Infrastructure"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -325,7 +488,12 @@
         "Enterprise",
         "Arrays"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -338,7 +506,12 @@
         "Block",
         "File"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -351,7 +524,12 @@
         "Unified",
         "Arrays"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Dell",
@@ -364,7 +542,12 @@
         "Hyperconverged",
         "VMware"
       ],
-      "docsUrl": "https://developer.dell.com/apis"
+      "docsUrl": "https://developer.dell.com/apis",
+      "environmental_variables": [
+        "IDRAC_BASE_URL",
+        "IDRAC_USERNAME",
+        "IDRAC_PASSWORD"
+      ]
     },
     {
       "vendor": "Palo Alto Networks",
@@ -377,7 +560,8 @@
         "Firewall",
         "Networking"
       ],
-      "docsUrl": "https://docs.paloaltonetworks.com/"
+      "docsUrl": "https://docs.paloaltonetworks.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Palo Alto Networks",
@@ -390,7 +574,13 @@
         "Firewall",
         "Management"
       ],
-      "docsUrl": "https://docs.paloaltonetworks.com/panorama"
+      "docsUrl": "https://docs.paloaltonetworks.com/panorama",
+      "environmental_variables": [
+        "PANORAMA_HOSTNAME",
+        "PANORAMA_USERNAME",
+        "PANORAMA_PASSWORD",
+        "PANORAMA_API_KEY"
+      ]
     },
     {
       "vendor": "Palo Alto Networks",
@@ -403,7 +593,12 @@
         "SASE",
         "Cloud"
       ],
-      "docsUrl": "https://docs.paloaltonetworks.com/prisma-access"
+      "docsUrl": "https://docs.paloaltonetworks.com/prisma-access",
+      "environmental_variables": [
+        "PRISMA_ACCESS_TENANT_ID",
+        "PRISMA_ACCESS_CLIENT_ID",
+        "PRISMA_ACCESS_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Palo Alto Networks",
@@ -416,7 +611,12 @@
         "XDR",
         "Threat Detection"
       ],
-      "docsUrl": "https://docs-cortex.paloaltonetworks.com/"
+      "docsUrl": "https://docs-cortex.paloaltonetworks.com/",
+      "environmental_variables": [
+        "CORTEX_XDR_FQDN",
+        "CORTEX_XDR_API_KEY",
+        "CORTEX_XDR_API_KEY_ID"
+      ]
     },
     {
       "vendor": "Palo Alto Networks",
@@ -429,7 +629,12 @@
         "Cloud Security",
         "CSPM"
       ],
-      "docsUrl": "https://pan.dev/prisma-cloud/"
+      "docsUrl": "https://pan.dev/prisma-cloud/",
+      "environmental_variables": [
+        "PRISMA_CLOUD_API_URL",
+        "PRISMA_CLOUD_ACCESS_KEY",
+        "PRISMA_CLOUD_SECRET_KEY"
+      ]
     },
     {
       "vendor": "Cisco",
@@ -442,7 +647,8 @@
         "Data Center",
         "Switching"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -455,7 +661,8 @@
         "Campus",
         "Automation"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -468,7 +675,10 @@
         "Cloud",
         "WiFi"
       ],
-      "docsUrl": "https://developer.cisco.com/meraki/"
+      "docsUrl": "https://developer.cisco.com/meraki/",
+      "environmental_variables": [
+        "MERAKI_API_KEY"
+      ]
     },
     {
       "vendor": "Cisco",
@@ -481,7 +691,8 @@
         "Firewall",
         "Management"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -494,7 +705,8 @@
         "Firewall",
         "Threat Defense"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -507,7 +719,8 @@
         "NAC",
         "Identity"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -520,7 +733,8 @@
         "WAN",
         "SD-WAN"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -533,7 +747,8 @@
         "Servers",
         "Infrastructure"
       ],
-      "docsUrl": "https://developer.cisco.com/"
+      "docsUrl": "https://developer.cisco.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Cisco",
@@ -546,7 +761,10 @@
         "Cloud",
         "Management"
       ],
-      "docsUrl": "https://intersight.com/apidocs/"
+      "docsUrl": "https://intersight.com/apidocs/",
+      "environmental_variables": [
+        "INTERSIGHT_API_KEY"
+      ]
     },
     {
       "vendor": "VMware",
@@ -559,7 +777,8 @@
         "Infrastructure",
         "Compute"
       ],
-      "docsUrl": "https://developer.vmware.com/"
+      "docsUrl": "https://developer.vmware.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -572,7 +791,8 @@
         "Security",
         "SDN"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/nsx-policy/"
+      "docsUrl": "https://developer.vmware.com/apis/nsx-policy/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -585,7 +805,8 @@
         "HCI",
         "Software-Defined"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/vsan/"
+      "docsUrl": "https://developer.vmware.com/apis/vsan/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -598,7 +819,8 @@
         "Analytics",
         "AI Operations"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/vrops/"
+      "docsUrl": "https://developer.vmware.com/apis/vrops/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -611,7 +833,8 @@
         "Containers",
         "Platform"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/vsphere-automation/"
+      "docsUrl": "https://developer.vmware.com/apis/vsphere-automation/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -624,7 +847,8 @@
         "IaC",
         "Self-Service"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/vra/"
+      "docsUrl": "https://developer.vmware.com/apis/vra/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -637,7 +861,8 @@
         "Analytics",
         "Troubleshooting"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/vrli/"
+      "docsUrl": "https://developer.vmware.com/apis/vrli/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -650,7 +875,8 @@
         "Desktop",
         "Remote Workforce"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/horizon/"
+      "docsUrl": "https://developer.vmware.com/apis/horizon/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -662,7 +888,8 @@
         "Disaster Recovery",
         "Business Continuity"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/srm/"
+      "docsUrl": "https://developer.vmware.com/apis/srm/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -675,7 +902,8 @@
         "Analytics",
         "Troubleshooting"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/vrni/"
+      "docsUrl": "https://developer.vmware.com/apis/vrni/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -688,7 +916,8 @@
         "Migration",
         "VMC/AVS/GCVE"
       ],
-      "docsUrl": "https://developer.vmware.com/apis/hcx/"
+      "docsUrl": "https://developer.vmware.com/apis/hcx/",
+      "environmental_variables": []
     },
     {
       "vendor": "VMware",
@@ -701,7 +930,8 @@
         "Application Delivery",
         "WAF"
       ],
-      "docsUrl": "https://avinetworks.com/docs/"
+      "docsUrl": "https://avinetworks.com/docs/",
+      "environmental_variables": []
     },
     {
       "vendor": "Pure Storage",
@@ -714,7 +944,10 @@
         "Flash",
         "Block"
       ],
-      "docsUrl": "https://support.purestorage.com/"
+      "docsUrl": "https://support.purestorage.com/",
+      "environmental_variables": [
+        "PURE_API_TOKEN"
+      ]
     },
     {
       "vendor": "Pure Storage",
@@ -727,7 +960,10 @@
         "File",
         "Object"
       ],
-      "docsUrl": "https://support.purestorage.com/"
+      "docsUrl": "https://support.purestorage.com/",
+      "environmental_variables": [
+        "FLASHBLADE_API_TOKEN"
+      ]
     },
     {
       "vendor": "Pure Storage",
@@ -740,7 +976,11 @@
         "Analytics",
         "Cloud"
       ],
-      "docsUrl": "https://pure1.purestorage.com/api"
+      "docsUrl": "https://pure1.purestorage.com/api",
+      "environmental_variables": [
+        "PURE1_APP_ID",
+        "PURE1_PRIVATE_KEY"
+      ]
     },
     {
       "vendor": "Pure Storage",
@@ -753,7 +993,11 @@
         "Storage",
         "Containers"
       ],
-      "docsUrl": "https://docs.portworx.com/"
+      "docsUrl": "https://docs.portworx.com/",
+      "environmental_variables": [
+        "PORTWORX_ENDPOINT",
+        "PORTWORX_TOKEN"
+      ]
     },
     {
       "vendor": "Fortinet",
@@ -766,7 +1010,11 @@
         "Firewall",
         "NGFW"
       ],
-      "docsUrl": "https://docs.fortinet.com/"
+      "docsUrl": "https://docs.fortinet.com/",
+      "environmental_variables": [
+        "FORTIGATE_BASE_URL",
+        "FORTIGATE_API_KEY"
+      ]
     },
     {
       "vendor": "Fortinet",
@@ -779,7 +1027,12 @@
         "Management",
         "Firewall"
       ],
-      "docsUrl": "https://docs.fortinet.com/"
+      "docsUrl": "https://docs.fortinet.com/",
+      "environmental_variables": [
+        "FORTIMANAGER_BASE_URL",
+        "FORTIMANAGER_USERNAME",
+        "FORTIMANAGER_PASSWORD"
+      ]
     },
     {
       "vendor": "Fortinet",
@@ -792,7 +1045,12 @@
         "Analytics",
         "Logging"
       ],
-      "docsUrl": "https://docs.fortinet.com/"
+      "docsUrl": "https://docs.fortinet.com/",
+      "environmental_variables": [
+        "FORTIMANAGER_BASE_URL",
+        "FORTIMANAGER_USERNAME",
+        "FORTIMANAGER_PASSWORD"
+      ]
     },
     {
       "vendor": "Fortinet",
@@ -805,7 +1063,8 @@
         "WAF",
         "Application Security"
       ],
-      "docsUrl": "https://docs.fortinet.com/"
+      "docsUrl": "https://docs.fortinet.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Akamai",
@@ -818,7 +1077,8 @@
         "Edge",
         "Security"
       ],
-      "docsUrl": "https://techdocs.akamai.com/developer/"
+      "docsUrl": "https://techdocs.akamai.com/developer/",
+      "environmental_variables": []
     },
     {
       "vendor": "Linode",
@@ -831,7 +1091,8 @@
         "Infrastructure",
         "Compute"
       ],
-      "docsUrl": "https://www.linode.com/docs/api/"
+      "docsUrl": "https://www.linode.com/docs/api/",
+      "environmental_variables": []
     },
     {
       "vendor": "AWS",
@@ -844,7 +1105,13 @@
         "Compute",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/ec2/"
+      "docsUrl": "https://docs.aws.amazon.com/ec2/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -857,7 +1124,13 @@
         "Networking",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/vpc/"
+      "docsUrl": "https://docs.aws.amazon.com/vpc/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -870,7 +1143,13 @@
         "Storage",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/s3/"
+      "docsUrl": "https://docs.aws.amazon.com/s3/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -884,7 +1163,13 @@
         "Identity",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/iam/"
+      "docsUrl": "https://docs.aws.amazon.com/iam/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -898,7 +1183,13 @@
         "Load Balancing",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/elasticloadbalancing/"
+      "docsUrl": "https://docs.aws.amazon.com/elasticloadbalancing/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -911,7 +1202,13 @@
         "Database",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/rds/"
+      "docsUrl": "https://docs.aws.amazon.com/rds/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -924,7 +1221,13 @@
         "Serverless",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/lambda/"
+      "docsUrl": "https://docs.aws.amazon.com/lambda/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -937,7 +1240,13 @@
         "Kubernetes",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/eks/"
+      "docsUrl": "https://docs.aws.amazon.com/eks/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -950,7 +1259,13 @@
         "Monitoring",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/cloudwatch/"
+      "docsUrl": "https://docs.aws.amazon.com/cloudwatch/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -963,7 +1278,13 @@
         "DNS",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/route53/"
+      "docsUrl": "https://docs.aws.amazon.com/route53/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -977,7 +1298,13 @@
         "NoSQL",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/dynamodb/"
+      "docsUrl": "https://docs.aws.amazon.com/dynamodb/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -990,7 +1317,13 @@
         "CDN",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/cloudfront/"
+      "docsUrl": "https://docs.aws.amazon.com/cloudfront/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -1003,7 +1336,13 @@
         "Messaging",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/sqs/"
+      "docsUrl": "https://docs.aws.amazon.com/sqs/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -1016,7 +1355,13 @@
         "Messaging",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/sns/"
+      "docsUrl": "https://docs.aws.amazon.com/sns/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -1029,7 +1374,13 @@
         "Containers",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/ecr/"
+      "docsUrl": "https://docs.aws.amazon.com/ecr/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -1042,7 +1393,13 @@
         "Containers",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/ecs/"
+      "docsUrl": "https://docs.aws.amazon.com/ecs/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -1055,7 +1412,13 @@
         "IaC",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/cloudformation/"
+      "docsUrl": "https://docs.aws.amazon.com/cloudformation/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "AWS",
@@ -1068,7 +1431,8 @@
         "Management",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/systems-manager/"
+      "docsUrl": "https://docs.aws.amazon.com/systems-manager/",
+      "environmental_variables": []
     },
     {
       "vendor": "AWS",
@@ -1081,7 +1445,8 @@
         "Security",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/secretsmanager/"
+      "docsUrl": "https://docs.aws.amazon.com/secretsmanager/",
+      "environmental_variables": []
     },
     {
       "vendor": "AWS",
@@ -1095,7 +1460,13 @@
         "Encryption",
         "AWS"
       ],
-      "docsUrl": "https://docs.aws.amazon.com/kms/"
+      "docsUrl": "https://docs.aws.amazon.com/kms/",
+      "environmental_variables": [
+        "AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_REGION"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1108,7 +1479,13 @@
         "Compute",
         "Azure"
       ],
-      "docsUrl": "https://docs.microsoft.com/azure/virtual-machines/"
+      "docsUrl": "https://docs.microsoft.com/azure/virtual-machines/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1121,7 +1498,13 @@
         "Storage",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/storage/"
+      "docsUrl": "https://learn.microsoft.com/azure/storage/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1134,7 +1517,13 @@
         "Networking",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/virtual-network/"
+      "docsUrl": "https://learn.microsoft.com/azure/virtual-network/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1147,7 +1536,13 @@
         "Management",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/azure-resource-manager/"
+      "docsUrl": "https://learn.microsoft.com/azure/azure-resource-manager/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1160,7 +1555,13 @@
         "Database",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/sql-database/"
+      "docsUrl": "https://learn.microsoft.com/azure/sql-database/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1173,7 +1574,13 @@
         "Serverless",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/azure-functions/"
+      "docsUrl": "https://learn.microsoft.com/azure/azure-functions/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1186,7 +1593,13 @@
         "Networking",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/load-balancer/"
+      "docsUrl": "https://learn.microsoft.com/azure/load-balancer/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1199,7 +1612,13 @@
         "DNS",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/dns/"
+      "docsUrl": "https://learn.microsoft.com/azure/dns/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1212,7 +1631,13 @@
         "Monitoring",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/azure-monitor/"
+      "docsUrl": "https://learn.microsoft.com/azure/azure-monitor/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1225,7 +1650,13 @@
         "Kubernetes",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/aks/"
+      "docsUrl": "https://learn.microsoft.com/azure/aks/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1239,7 +1670,13 @@
         "NoSQL",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/cosmos-db/"
+      "docsUrl": "https://learn.microsoft.com/azure/cosmos-db/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1252,7 +1689,13 @@
         "CDN",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/cdn/"
+      "docsUrl": "https://learn.microsoft.com/azure/cdn/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1265,7 +1708,13 @@
         "Messaging",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/service-bus-messaging/"
+      "docsUrl": "https://learn.microsoft.com/azure/service-bus-messaging/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1278,7 +1727,13 @@
         "Messaging",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/event-hubs/"
+      "docsUrl": "https://learn.microsoft.com/azure/event-hubs/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1291,7 +1746,13 @@
         "Containers",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/container-registry/"
+      "docsUrl": "https://learn.microsoft.com/azure/container-registry/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1304,7 +1765,13 @@
         "Containers",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/container-instances/"
+      "docsUrl": "https://learn.microsoft.com/azure/container-instances/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1317,7 +1784,13 @@
         "Security",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/key-vault/"
+      "docsUrl": "https://learn.microsoft.com/azure/key-vault/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1330,7 +1803,13 @@
         "Web Apps",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/app-service/"
+      "docsUrl": "https://learn.microsoft.com/azure/app-service/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1343,7 +1822,13 @@
         "Identity",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/active-directory/"
+      "docsUrl": "https://learn.microsoft.com/azure/active-directory/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Azure",
@@ -1356,7 +1841,13 @@
         "Backup",
         "Azure"
       ],
-      "docsUrl": "https://learn.microsoft.com/azure/backup/"
+      "docsUrl": "https://learn.microsoft.com/azure/backup/",
+      "environmental_variables": [
+        "AZURE_SUBSCRIPTION_ID",
+        "AZURE_TENANT_ID",
+        "AZURE_CLIENT_ID",
+        "AZURE_CLIENT_SECRET"
+      ]
     },
     {
       "vendor": "Google Cloud",
@@ -1369,7 +1860,11 @@
         "Compute",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/compute/docs/reference/rest/v1"
+      "docsUrl": "https://cloud.google.com/compute/docs/reference/rest/v1",
+      "environmental_variables": [
+        "GCP_PROJECT_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS"
+      ]
     },
     {
       "vendor": "Google Cloud",
@@ -1382,7 +1877,11 @@
         "Storage",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/storage/docs/json_api"
+      "docsUrl": "https://cloud.google.com/storage/docs/json_api",
+      "environmental_variables": [
+        "GCP_PROJECT_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS"
+      ]
     },
     {
       "vendor": "Google Cloud",
@@ -1396,7 +1895,11 @@
         "Analytics",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/bigquery/docs/reference/rest"
+      "docsUrl": "https://cloud.google.com/bigquery/docs/reference/rest",
+      "environmental_variables": [
+        "GCP_PROJECT_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS"
+      ]
     },
     {
       "vendor": "Google Cloud",
@@ -1409,7 +1912,8 @@
         "Database",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/sql/docs/mysql/admin-api"
+      "docsUrl": "https://cloud.google.com/sql/docs/mysql/admin-api",
+      "environmental_variables": []
     },
     {
       "vendor": "Google Cloud",
@@ -1422,7 +1926,11 @@
         "Kubernetes",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/kubernetes-engine/docs/reference/rest"
+      "docsUrl": "https://cloud.google.com/kubernetes-engine/docs/reference/rest",
+      "environmental_variables": [
+        "GCP_PROJECT_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS"
+      ]
     },
     {
       "vendor": "Google Cloud",
@@ -1435,7 +1943,11 @@
         "Serverless",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/functions/docs/reference/rest"
+      "docsUrl": "https://cloud.google.com/functions/docs/reference/rest",
+      "environmental_variables": [
+        "GCP_PROJECT_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS"
+      ]
     },
     {
       "vendor": "Google Cloud",
@@ -1449,7 +1961,11 @@
         "Security",
         "GCP"
       ],
-      "docsUrl": "https://cloud.google.com/iam/docs/reference/rest"
+      "docsUrl": "https://cloud.google.com/iam/docs/reference/rest",
+      "environmental_variables": [
+        "GCP_PROJECT_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS"
+      ]
     },
     {
       "vendor": "Arista",
@@ -1462,7 +1978,8 @@
         "Management",
         "Automation"
       ],
-      "docsUrl": "https://www.arista.com/en/um-cvp/cvp-resource-apis/cvp-restful-api-overview"
+      "docsUrl": "https://www.arista.com/en/um-cvp/cvp-resource-apis/cvp-restful-api-overview",
+      "environmental_variables": []
     },
     {
       "vendor": "Arista",
@@ -1475,7 +1992,8 @@
         "Switching",
         "Routing"
       ],
-      "docsUrl": "https://www.arista.com/en/um-eos/eos-section-6-2-eapi-programming-interface"
+      "docsUrl": "https://www.arista.com/en/um-eos/eos-section-6-2-eapi-programming-interface",
+      "environmental_variables": []
     },
     {
       "vendor": "Arista",
@@ -1488,7 +2006,8 @@
         "Cloud",
         "Telemetry"
       ],
-      "docsUrl": "https://www.arista.com/en/cg-cv/cv-resource-apis"
+      "docsUrl": "https://www.arista.com/en/cg-cv/cv-resource-apis",
+      "environmental_variables": []
     },
     {
       "vendor": "Arista",
@@ -1501,7 +2020,8 @@
         "Cloud",
         "Networking"
       ],
-      "docsUrl": "https://www.arista.com/en/products/wireless"
+      "docsUrl": "https://www.arista.com/en/products/wireless",
+      "environmental_variables": []
     },
     {
       "vendor": "Arista",
@@ -1514,7 +2034,8 @@
         "Telemetry",
         "Analytics"
       ],
-      "docsUrl": "https://www.arista.com/en/products/eos/eos-telemetry"
+      "docsUrl": "https://www.arista.com/en/products/eos/eos-telemetry",
+      "environmental_variables": []
     },
     {
       "vendor": "Aruba",
@@ -1527,7 +2048,8 @@
         "Cloud",
         "Management"
       ],
-      "docsUrl": "https://developer.arubanetworks.com/aruba-central"
+      "docsUrl": "https://developer.arubanetworks.com/aruba-central",
+      "environmental_variables": []
     },
     {
       "vendor": "Aruba",
@@ -1540,7 +2062,8 @@
         "NAC",
         "Policy Management"
       ],
-      "docsUrl": "https://developer.arubanetworks.com/aruba-cppm"
+      "docsUrl": "https://developer.arubanetworks.com/aruba-cppm",
+      "environmental_variables": []
     },
     {
       "vendor": "Aruba",
@@ -1553,7 +2076,8 @@
         "Switching",
         "Data Center"
       ],
-      "docsUrl": "https://developer.arubanetworks.com/aruba-aoscx"
+      "docsUrl": "https://developer.arubanetworks.com/aruba-aoscx",
+      "environmental_variables": []
     },
     {
       "vendor": "Aruba",
@@ -1566,7 +2090,8 @@
         "Management",
         "On-Premises"
       ],
-      "docsUrl": "https://www.arubanetworks.com/techdocs/AirWave/"
+      "docsUrl": "https://www.arubanetworks.com/techdocs/AirWave/",
+      "environmental_variables": []
     },
     {
       "vendor": "Aruba",
@@ -1579,7 +2104,8 @@
         "Cloud",
         "SMB"
       ],
-      "docsUrl": "https://help.arubainstanton.com"
+      "docsUrl": "https://help.arubainstanton.com",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1592,7 +2118,8 @@
         "Firewall",
         "Management"
       ],
-      "docsUrl": "https://sc1.checkpoint.com/documents/latest/APIs/"
+      "docsUrl": "https://sc1.checkpoint.com/documents/latest/APIs/",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1605,7 +2132,8 @@
         "Cloud Security",
         "CSPM"
       ],
-      "docsUrl": "https://sc1.checkpoint.com/documents/CloudGuard_Dome9/Documentation/API/"
+      "docsUrl": "https://sc1.checkpoint.com/documents/CloudGuard_Dome9/Documentation/API/",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1618,7 +2146,8 @@
         "Firewall",
         "Gateway"
       ],
-      "docsUrl": "https://sc1.checkpoint.com/documents/latest/APIs/"
+      "docsUrl": "https://sc1.checkpoint.com/documents/latest/APIs/",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1631,7 +2160,8 @@
         "Endpoint Protection",
         "Anti-Malware"
       ],
-      "docsUrl": "https://sc1.checkpoint.com/documents/Infinity_Portal/"
+      "docsUrl": "https://sc1.checkpoint.com/documents/Infinity_Portal/",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1644,7 +2174,8 @@
         "Management",
         "Unified Console"
       ],
-      "docsUrl": "https://sc1.checkpoint.com/documents/Infinity_Portal/"
+      "docsUrl": "https://sc1.checkpoint.com/documents/Infinity_Portal/",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1657,7 +2188,8 @@
         "Logging",
         "Analytics"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1670,7 +2202,8 @@
         "Threat Prevention",
         "IPS"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1683,7 +2216,8 @@
         "SSL Inspection",
         "Policies"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1696,7 +2230,8 @@
         "SASE",
         "Cloud"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1709,7 +2244,8 @@
         "Threat Intelligence",
         "Reputation"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1722,7 +2258,8 @@
         "Malware Analysis",
         "Sandboxing"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Check Point",
@@ -1735,7 +2272,8 @@
         "Network Management",
         "Gateway"
       ],
-      "docsUrl": "https://github.com/CheckPointSW/mcp-servers"
+      "docsUrl": "https://github.com/CheckPointSW/mcp-servers",
+      "environmental_variables": []
     },
     {
       "vendor": "Citrix",
@@ -1748,7 +2286,8 @@
         "Application Publishing",
         "Session Management"
       ],
-      "docsUrl": "https://developer.cloud.com/citrixworkspace/citrix-daas/sdk-api"
+      "docsUrl": "https://developer.cloud.com/citrixworkspace/citrix-daas/sdk-api",
+      "environmental_variables": []
     },
     {
       "vendor": "Citrix",
@@ -1761,7 +2300,8 @@
         "Application Delivery",
         "SSL/TLS"
       ],
-      "docsUrl": "https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/"
+      "docsUrl": "https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/",
+      "environmental_variables": []
     },
     {
       "vendor": "Citrix",
@@ -1774,7 +2314,8 @@
         "Network Optimization",
         "WAN Management"
       ],
-      "docsUrl": "https://developer-docs.citrix.com/projects/citrix-sd-wan-center-api/"
+      "docsUrl": "https://developer-docs.citrix.com/projects/citrix-sd-wan-center-api/",
+      "environmental_variables": []
     },
     {
       "vendor": "Citrix",
@@ -1787,7 +2328,8 @@
         "Workspace Management",
         "Identity"
       ],
-      "docsUrl": "https://developer.cloud.com/"
+      "docsUrl": "https://developer.cloud.com/",
+      "environmental_variables": []
     },
     {
       "vendor": "Citrix",
@@ -1800,7 +2342,8 @@
         "Access Gateway",
         "Authentication"
       ],
-      "docsUrl": "https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/"
+      "docsUrl": "https://developer-docs.citrix.com/projects/citrix-adc-nitro-api-reference/",
+      "environmental_variables": []
     },
     {
       "vendor": "HPE",
@@ -1813,7 +2356,8 @@
         "Server Management",
         "Storage"
       ],
-      "docsUrl": "https://www.hpe.com/us/en/servers/oneview.html"
+      "docsUrl": "https://www.hpe.com/us/en/servers/oneview.html",
+      "environmental_variables": []
     },
     {
       "vendor": "HPE",
@@ -1826,7 +2370,8 @@
         "Hardware Monitoring",
         "Redfish"
       ],
-      "docsUrl": "https://hewlettpackard.github.io/ilo-rest-api-docs/"
+      "docsUrl": "https://hewlettpackard.github.io/ilo-rest-api-docs/",
+      "environmental_variables": []
     },
     {
       "vendor": "HPE",
@@ -1839,7 +2384,8 @@
         "Virtualization",
         "Backup"
       ],
-      "docsUrl": "https://developer.hpe.com/platform/hpe-simplivity/home/"
+      "docsUrl": "https://developer.hpe.com/platform/hpe-simplivity/home/",
+      "environmental_variables": []
     },
     {
       "vendor": "HPE",
@@ -1852,7 +2398,8 @@
         "Performance Monitoring",
         "Data Protection"
       ],
-      "docsUrl": "https://infosight.hpe.com/InfoSight/media/cms/active/public/pubs_REST_API_Reference_NOS_50x.whz"
+      "docsUrl": "https://infosight.hpe.com/InfoSight/media/cms/active/public/pubs_REST_API_Reference_NOS_50x.whz",
+      "environmental_variables": []
     },
     {
       "vendor": "HPE",
@@ -1865,7 +2412,8 @@
         "SAN",
         "Storage Arrays"
       ],
-      "docsUrl": "https://support.hpe.com/hpesc/public/docDisplay?docId=a00118636en_us"
+      "docsUrl": "https://support.hpe.com/hpesc/public/docDisplay?docId=a00118636en_us",
+      "environmental_variables": []
     },
     {
       "vendor": "Juniper Networks",
@@ -1878,7 +2426,8 @@
         "AI Operations",
         "Cloud Networking"
       ],
-      "docsUrl": "https://api.mist.com/api/v1/docs/"
+      "docsUrl": "https://api.mist.com/api/v1/docs/",
+      "environmental_variables": []
     },
     {
       "vendor": "Juniper Networks",
@@ -1891,7 +2440,8 @@
         "Intent-Based Networking",
         "Fabric Management"
       ],
-      "docsUrl": "https://www.juniper.net/documentation/us/en/software/apstra/"
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/apstra/",
+      "environmental_variables": []
     },
     {
       "vendor": "Juniper Networks",
@@ -1904,7 +2454,8 @@
         "Routing",
         "NETCONF"
       ],
-      "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos-pyez/"
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos-pyez/",
+      "environmental_variables": []
     },
     {
       "vendor": "Juniper Networks",
@@ -1917,7 +2468,8 @@
         "Network Virtualization",
         "Cloud Networking"
       ],
-      "docsUrl": "https://www.juniper.net/documentation/us/en/software/contrail/"
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/contrail/",
+      "environmental_variables": []
     },
     {
       "vendor": "Juniper Networks",
@@ -1930,7 +2482,8 @@
         "VPN",
         "Intrusion Prevention"
       ],
-      "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos/security-policies/"
+      "docsUrl": "https://www.juniper.net/documentation/us/en/software/junos/security-policies/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -1943,7 +2496,8 @@
         "SAN",
         "NAS"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/ontap-automation/"
+      "docsUrl": "https://docs.netapp.com/us-en/ontap-automation/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -1956,7 +2510,8 @@
         "Scale-Out Storage",
         "SAN"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/element-software/"
+      "docsUrl": "https://docs.netapp.com/us-en/element-software/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -1969,7 +2524,8 @@
         "SAN",
         "Block Storage"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/e-series/"
+      "docsUrl": "https://docs.netapp.com/us-en/e-series/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -1982,7 +2538,8 @@
         "S3",
         "Cloud Storage"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/storagegrid-116/admin/"
+      "docsUrl": "https://docs.netapp.com/us-en/storagegrid-116/admin/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -1995,7 +2552,8 @@
         "Predictive Analytics",
         "System Health"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/active-iq/"
+      "docsUrl": "https://docs.netapp.com/us-en/active-iq/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2008,7 +2566,8 @@
         "Hybrid Cloud",
         "Multi-Cloud"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/"
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2021,7 +2580,8 @@
         "Hybrid Cloud",
         "Control Plane"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-automation/"
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-automation/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2034,7 +2594,8 @@
         "Analytics",
         "Multi-Cloud"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/cloudinsights/"
+      "docsUrl": "https://docs.netapp.com/us-en/cloudinsights/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2047,7 +2608,8 @@
         "Data Protection",
         "Multi-Cloud"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-backup-restore/"
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-backup-restore/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2060,7 +2622,8 @@
         "Synchronization",
         "Cloud"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-sync/"
+      "docsUrl": "https://docs.netapp.com/us-en/cloud-manager-sync/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2073,7 +2636,8 @@
         "Data Protection",
         "Application Consistency"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/snapcenter/"
+      "docsUrl": "https://docs.netapp.com/us-en/snapcenter/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2086,7 +2650,8 @@
         "Disaster Recovery",
         "Data Protection"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/ontap/data-protection/"
+      "docsUrl": "https://docs.netapp.com/us-en/ontap/data-protection/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2099,7 +2664,8 @@
         "Disaster Recovery",
         "Continuous Operations"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/ontap-metrocluster/"
+      "docsUrl": "https://docs.netapp.com/us-en/ontap-metrocluster/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2112,7 +2678,8 @@
         "Container Storage",
         "Data Management"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/astra-automation/"
+      "docsUrl": "https://docs.netapp.com/us-en/astra-automation/",
+      "environmental_variables": []
     },
     {
       "vendor": "NetApp",
@@ -2125,7 +2692,8 @@
         "CSI Driver",
         "Dynamic Provisioning"
       ],
-      "docsUrl": "https://docs.netapp.com/us-en/trident/"
+      "docsUrl": "https://docs.netapp.com/us-en/trident/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2138,7 +2706,8 @@
         "Performance Monitoring",
         "SQL"
       ],
-      "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/"
+      "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2151,7 +2720,8 @@
         "Virtual Machines",
         "Compute"
       ],
-      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/"
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2164,7 +2734,8 @@
         "Cloud Database",
         "AI Operations"
       ],
-      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/#/en/database/latest/"
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/#/en/database/latest/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2177,7 +2748,8 @@
         "Engineered Systems",
         "Database Infrastructure"
       ],
-      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/#/en/database/latest/"
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/#/en/database/latest/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2190,7 +2762,8 @@
         "Monitoring",
         "Enterprise"
       ],
-      "docsUrl": "https://docs.oracle.com/en/enterprise-manager/"
+      "docsUrl": "https://docs.oracle.com/en/enterprise-manager/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2203,7 +2776,8 @@
         "VCN",
         "Load Balancing"
       ],
-      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/"
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2216,7 +2790,8 @@
         "Cloud Storage",
         "S3-Compatible"
       ],
-      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/"
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/api/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2229,7 +2804,8 @@
         "Container Orchestration",
         "Cloud Native"
       ],
-      "docsUrl": "https://docs.oracle.com/en-us/iaas/Content/ContEng/home.htm"
+      "docsUrl": "https://docs.oracle.com/en-us/iaas/Content/ContEng/home.htm",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2242,7 +2818,8 @@
         "Application Server",
         "Java EE"
       ],
-      "docsUrl": "https://docs.oracle.com/en/middleware/fusion-middleware/weblogic-server/"
+      "docsUrl": "https://docs.oracle.com/en/middleware/fusion-middleware/weblogic-server/",
+      "environmental_variables": []
     },
     {
       "vendor": "Oracle",
@@ -2255,7 +2832,8 @@
         "Database Clustering",
         "RAC"
       ],
-      "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/19/racad/"
+      "docsUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/19/racad/",
+      "environmental_variables": []
     },
     {
       "vendor": "Rackspace",
@@ -2268,7 +2846,8 @@
         "OpenStack",
         "Virtual Machines"
       ],
-      "docsUrl": "https://docs.rackspace.com/docs/cloud-servers/v2/"
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-servers/v2/",
+      "environmental_variables": []
     },
     {
       "vendor": "Rackspace",
@@ -2281,7 +2860,8 @@
         "OpenStack",
         "Volumes"
       ],
-      "docsUrl": "https://docs.rackspace.com/docs/cloud-block-storage/v1/"
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-block-storage/v1/",
+      "environmental_variables": []
     },
     {
       "vendor": "Rackspace",
@@ -2294,7 +2874,8 @@
         "Traffic Management",
         "High Availability"
       ],
-      "docsUrl": "https://docs.rackspace.com/docs/cloud-load-balancers/v1/"
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-load-balancers/v1/",
+      "environmental_variables": []
     },
     {
       "vendor": "Rackspace",
@@ -2307,7 +2888,8 @@
         "OpenStack",
         "Security Groups"
       ],
-      "docsUrl": "https://docs.rackspace.com/docs/cloud-networks/v2/"
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-networks/v2/",
+      "environmental_variables": []
     },
     {
       "vendor": "Rackspace",
@@ -2320,7 +2902,8 @@
         "Domain Management",
         "Name Services"
       ],
-      "docsUrl": "https://docs.rackspace.com/docs/cloud-dns/v1/"
+      "docsUrl": "https://docs.rackspace.com/docs/cloud-dns/v1/",
+      "environmental_variables": []
     }
   ]
 }
