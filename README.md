@@ -33,6 +33,7 @@ Complete catalog of all MCP servers with:
 | **Fortinet** | 1 | FortiGate |
 | **Akamai** | 1 | EdgeGrid (CDN/Edge) |
 | **Linode** | 1 | Cloud API |
+| **Ubiquiti** | 1 | Site Manager (UniFi, SD-WAN) |
 
 ---
 

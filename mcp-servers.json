@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_servers": 178,
-    "total_vendors": 21,
-    "last_updated": "2025-10-30",
+    "total_servers": 179,
+    "total_vendors": 22,
+    "last_updated": "2025-02-13",
     "version": "2.0"
   },
   "servers": [
@@ -2904,6 +2904,24 @@
       ],
       "docsUrl": "https://docs.rackspace.com/docs/cloud-dns/v1/",
       "environmental_variables": []
+    },
+    {
+      "vendor": "Ubiquiti",
+      "product": "Site Manager",
+      "apiVersion": "v1",
+      "description": "Read-only access to UniFi Site Manager API: hosts, sites, devices, ISP metrics, SD-WAN configurations. Query and monitor UniFi deployments programmatically.",
+      "requirements": "API key; HTTPS",
+      "category": [
+        "Networking",
+        "SD-WAN",
+        "UniFi"
+      ],
+      "docsUrl": "https://developer.ui.com/site-manager-api/gettingstarted",
+      "environmental_variables": [
+        "UBIQUITI_API_KEY",
+        "UBIQUITI_BASE_URL",
+        "MCP_PORT"
+      ]
     }
   ]
 }

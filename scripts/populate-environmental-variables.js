@@ -194,6 +194,9 @@ const PRODUCT_TO_DIR = {
     'Cortex XDR': 'cortex-xdr',
     'Prisma Cloud': 'prisma-cloud',
   },
+  'Ubiquiti': {
+    'Site Manager': 'sitemanager',
+  },
   'Google Cloud': {
     'Compute Engine': 'compute',
     'Cloud Storage': 'storage',
