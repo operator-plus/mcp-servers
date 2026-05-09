@@ -138,6 +138,12 @@ const PATH_ENV_MAP = {
   'gcp/cdn': ['GCP_PROJECT_ID', 'GOOGLE_APPLICATION_CREDENTIALS'],
   // Ubiquiti (if present in JSON)
   'ubiquiti/sitemanager': ['UBIQUITI_API_KEY', 'UBIQUITI_BASE_URL', 'MCP_PORT'],
+  // F5 (5 read-only MCPs in f5/)
+  'f5/bigip': ['BIGIP_URL', 'BIGIP_USERNAME', 'BIGIP_PASSWORD', 'BIGIP_AUTH_TOKEN', 'BIGIP_INSECURE', 'MCP_PORT'],
+  'f5/bigiq': ['BIGIQ_URL', 'BIGIQ_USERNAME', 'BIGIQ_PASSWORD', 'BIGIQ_AUTH_TOKEN', 'BIGIQ_INSECURE', 'MCP_PORT'],
+  'f5/bigip-next': ['BIGNEXT_URL', 'BIGNEXT_USERNAME', 'BIGNEXT_PASSWORD', 'BIGNEXT_BEARER_TOKEN', 'BIGNEXT_INSECURE', 'MCP_PORT'],
+  'f5/distributed-cloud': ['XC_URL', 'XC_API_TOKEN', 'XC_INSECURE', 'MCP_PORT'],
+  'f5/nginx-one': ['NGINX_ONE_URL', 'NGINX_ONE_USERNAME', 'NGINX_ONE_PASSWORD', 'NGINX_ONE_JWT', 'NGINX_ONE_INSECURE', 'MCP_PORT'],
 };
 
 // Product name (as in JSON) -> directory name, per vendor (when not simple lowercase)
@@ -196,6 +202,13 @@ const PRODUCT_TO_DIR = {
   },
   'Ubiquiti': {
     'Site Manager': 'sitemanager',
+  },
+  'F5': {
+    'BIG-IP': 'bigip',
+    'BIG-IQ': 'bigiq',
+    'BIG-IP Next Central Manager': 'bigip-next',
+    'Distributed Cloud (XC)': 'distributed-cloud',
+    'NGINX One (Instance Manager)': 'nginx-one',
   },
   'Google Cloud': {
     'Compute Engine': 'compute',

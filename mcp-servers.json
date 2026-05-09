@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_servers": 179,
-    "total_vendors": 22,
-    "last_updated": "2025-02-13",
-    "version": "2.0"
+    "total_servers": 184,
+    "total_vendors": 23,
+    "last_updated": "2026-05-09",
+    "version": "2.1"
   },
   "servers": [
     {
@@ -1065,6 +1065,120 @@
       ],
       "docsUrl": "https://docs.fortinet.com/",
       "environmental_variables": []
+    },
+    {
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "apiVersion": "iControl REST",
+      "description": "Read-only access to F5 BIG-IP across LTM (virtuals, pools, nodes, monitors, profiles, iRules, SNATs), GTM/DNS (wide-IPs, pools, servers, data centres), ASM/Advanced WAF (policies, signatures, events), AFM (firewall policies, rule lists, DoS profiles), APM (access policies), Sys (version, hardware, provisioning, NTP, DNS, software volumes, failover), Net (self-IPs, VLANs, routes, interfaces, trunks), and CM (device-trust, device-groups, traffic-groups, sync). 50+ endpoints.",
+      "requirements": "Local user (basic auth) or X-F5-Auth-Token; HTTPS",
+      "category": [
+        "Networking",
+        "Load Balancer",
+        "Security",
+        "WAF",
+        "Firewall"
+      ],
+      "docsUrl": "https://clouddocs.f5.com/api/icontrol-rest",
+      "environmental_variables": [
+        "BIGIP_URL",
+        "BIGIP_USERNAME",
+        "BIGIP_PASSWORD",
+        "BIGIP_AUTH_TOKEN",
+        "BIGIP_INSECURE",
+        "MCP_PORT"
+      ]
+    },
+    {
+      "vendor": "F5",
+      "product": "BIG-IQ",
+      "apiVersion": "8.0",
+      "description": "Read-only access to F5 BIG-IQ Centralized Management for fleet-wide monitoring of managed BIG-IP devices: ADC working configuration, ASM/Advanced WAF policies and signatures, AFM firewall policies and rule lists, DNS (GTM) wide-IPs and pools, license pools and member assignments, certificates, alerts, audit logs, users, and roles.",
+      "requirements": "BIG-IQ user (basic auth) or X-F5-Auth-Token; HTTPS",
+      "category": [
+        "Management",
+        "Centralized Management",
+        "ADC",
+        "WAF",
+        "Firewall"
+      ],
+      "docsUrl": "https://clouddocs.f5.com/products/big-iq/mgmt-api/v8.0.0/ApiReferences/bigiq_public_api_ref/r_public_api_references.html",
+      "environmental_variables": [
+        "BIGIQ_URL",
+        "BIGIQ_USERNAME",
+        "BIGIQ_PASSWORD",
+        "BIGIQ_AUTH_TOKEN",
+        "BIGIQ_INSECURE",
+        "MCP_PORT"
+      ]
+    },
+    {
+      "vendor": "F5",
+      "product": "BIG-IP Next Central Manager",
+      "apiVersion": "Latest",
+      "description": "Read-only access to F5 BIG-IP Next Central Manager (CM): managed Next instances and health, AS3 application services, alerts and notification configurations, HTTP/application analytics (request count, top apps, app health), security analytics (WAF events, BADOS attack events), APM access sessions, qkview diagnostics, certificates, users, roles, and audit logs.",
+      "requirements": "Bearer token via /api/login (auto-issued from username/password); HTTPS",
+      "category": [
+        "Management",
+        "Centralized Management",
+        "Application Services",
+        "Analytics",
+        "WAF"
+      ],
+      "docsUrl": "https://clouddocs.f5.com/products/bigip-next/mgmt-api/latest/ApiReferences/bigip_public_api_ref/r_openapi-next.html",
+      "environmental_variables": [
+        "BIGNEXT_URL",
+        "BIGNEXT_USERNAME",
+        "BIGNEXT_PASSWORD",
+        "BIGNEXT_BEARER_TOKEN",
+        "BIGNEXT_INSECURE",
+        "MCP_PORT"
+      ]
+    },
+    {
+      "vendor": "F5",
+      "product": "Distributed Cloud (XC)",
+      "apiVersion": "Latest",
+      "description": "Read-only access to F5 Distributed Cloud (formerly Volterra): tenant namespaces, sites (system, AWS VPC, Azure VNet, GCP VPC, virtual networks, network connectors), HTTP and TCP load balancers, origin pools, health checks, application firewalls (WAF), bot defense, service policies, rate-limiter policies, certificates, DNS zones and record sets, users, user groups, API credentials, and tenant audit log.",
+      "requirements": "API token (Authorization: APIToken <token>); HTTPS",
+      "category": [
+        "Cloud",
+        "Edge",
+        "Multi-Cloud",
+        "WAF",
+        "Bot Defense",
+        "DNS"
+      ],
+      "docsUrl": "https://docs.cloud.f5.com/docs-v2/platform/reference/api-sys-ref",
+      "environmental_variables": [
+        "XC_URL",
+        "XC_API_TOKEN",
+        "XC_INSECURE",
+        "MCP_PORT"
+      ]
+    },
+    {
+      "vendor": "F5",
+      "product": "NGINX One (Instance Manager)",
+      "apiVersion": "Platform v1",
+      "description": "Read-only access to F5 NGINX Instance Manager (NIM) and NGINX One: managed NGINX, NGINX Plus and NGINX App Protect instances; managed systems (hosts running NGINX Agent); discovered servers from network scans (with NGINX version and CVE info); active configuration tree; managed certificate inventory; metrics catalog and metrics queries; alerts and recent events; NGINX App Protect (NAP) WAF policies and attack signatures; users, roles, and license info.",
+      "requirements": "Local user (basic auth) or JWT bearer; HTTPS",
+      "category": [
+        "Networking",
+        "Web Server",
+        "Reverse Proxy",
+        "Load Balancer",
+        "WAF"
+      ],
+      "docsUrl": "https://docs.nginx.com/nginx-instance-manager/fundamentals/api-overview/",
+      "environmental_variables": [
+        "NGINX_ONE_URL",
+        "NGINX_ONE_USERNAME",
+        "NGINX_ONE_PASSWORD",
+        "NGINX_ONE_JWT",
+        "NGINX_ONE_INSECURE",
+        "MCP_PORT"
+      ]
     },
     {
       "vendor": "Akamai",
